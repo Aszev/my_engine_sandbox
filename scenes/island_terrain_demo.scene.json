@@ -93,7 +93,7 @@
             "terrainEntityName": "Large Island Terrain",
             "seed": 47,
             "densityScale": 0.75,
-            "viewDistanceMeters": 30.0,
+            "viewDistanceMeters": 900.0,
             "enabled": true,
             "debugCells": false,
             "debugDensity": false
