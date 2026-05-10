@@ -309,15 +309,15 @@
           "type": "Transform",
           "data": {
             "position": {
-              "x": -220.0,
-              "y": 140.0,
-              "z": 620.0
+              "x": -35.0,
+              "y": 38.0,
+              "z": 320.0
             },
             "rotation": {
-              "w": 0.976296,
-              "x": -0.21644,
-              "y": -0.035,
-              "z": -0.008
+              "w": 0.958073,
+              "x": -0.134648,
+              "y": 0.250452,
+              "z": 0.035199
             },
             "scale": {
               "x": 1.0,
@@ -350,6 +350,61 @@
               "z": -5.0
             },
             "collisionRadius": 0.25
+          }
+        }
+      ]
+    },
+    {
+      "id": "Forest Preview Player",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Forest Preview Player"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -7.0,
+              "y": 21.05,
+              "z": 260.0
+            },
+            "rotation": {
+              "w": 0.9238795,
+              "x": 0.0,
+              "y": 0.3826834,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Animator",
+          "data": {
+            "skeletonAsset": "asset://characters/meshy_scout/meshy_scout.skeleton.json",
+            "clipAsset": "asset://characters/meshy_scout/meshy_scout.clips/Idle_Bind.animation.json",
+            "loop": true,
+            "playing": true,
+            "playbackSpeed": 1.0,
+            "timeSeconds": 0.0
+          }
+        },
+        {
+          "type": "SkinnedMeshRenderer",
+          "data": {
+            "skinnedMeshAsset": "asset://characters/meshy_scout/meshy_scout.skinned_mesh.json",
+            "materialSlots": [
+              {
+                "name": "Material_1",
+                "materialAsset": "asset://materials/meshy_scout.material.json"
+              }
+            ]
           }
         }
       ]
