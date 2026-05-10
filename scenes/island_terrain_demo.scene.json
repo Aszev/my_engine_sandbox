@@ -44,11 +44,11 @@
           "data": {
             "terrainAsset": "asset://terrain/island.terrain.json",
             "materialAsset": "plugin_terrain://materials/terrain.material.json",
-            "chunkResolution": 64,
+            "chunkResolution": 128,
             "maxLod": 5,
-            "maxVisibleChunks": 420,
+            "maxVisibleChunks": 96,
             "lodDistanceScale": 0.9,
-            "viewDistanceMeters": 3200.0,
+            "viewDistanceMeters": 2200.0,
             "collisionEnabled": true,
             "debugChunks": false,
             "debugLod": false
@@ -92,8 +92,8 @@
             "vegetationAsset": "asset://vegetation/island.vegetation.json",
             "terrainEntityName": "Large Island Terrain",
             "seed": 47,
-            "densityScale": 1.0,
-            "viewDistanceMeters": 34.0,
+            "densityScale": 0.75,
+            "viewDistanceMeters": 30.0,
             "enabled": true,
             "debugCells": false,
             "debugDensity": false
@@ -350,6 +350,50 @@
               "z": -5.0
             },
             "collisionRadius": 0.25
+          }
+        }
+      ]
+    },
+    {
+      "id": "bush_common",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Bush_Common"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -2.7412869930267334,
+              "y": 21.033843994140625,
+              "z": 263.07843017578125
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_bush_common/quaternius_stylized_nature_bush_common.gltf",
+            "materialSlots": [
+              {
+                "name": "Leaves_TwistedTree",
+                "materialAsset": "temp://derived/imports/asset/external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_bush_common/quaternius_stylized_nature_bush_common.materials/Leaves_TwistedTree.material.json"
+              }
+            ]
           }
         }
       ]

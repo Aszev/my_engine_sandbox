@@ -14,7 +14,9 @@
     "desktopDynamic": []
   },
   "editorPlugins": {
-    "required": [],
+    "required": [
+      "engine.editor.external_asset_library"
+    ],
     "optional": [],
     "desktopDynamic": []
   },

@@ -8,7 +8,7 @@
     "heightScale": 1.0
   },
   "seaLevel": 0.0,
-  "chunkResolution": 64,
+  "chunkResolution": 128,
   "maxLod": 5,
   "source": {
     "kind": "procedural_island",
