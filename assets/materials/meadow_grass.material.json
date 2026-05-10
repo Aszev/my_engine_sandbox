@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "name": "meadow_grass",
+  "shader": "engine://shaders/src/debug-color",
+  "blend": "opaque",
+  "doubleSided": true,
+  "opacity": 1.0,
+  "baseColor": {
+    "x": 0.2,
+    "y": 0.58,
+    "z": 0.24
+  }
+}

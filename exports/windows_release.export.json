@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "windows_release",
+  "platform": "windows-x64",
+  "config": "shipping",
+  "runtimeTarget": "sandbox_app",
+  "buildConfig": "Release",
+  "buildBeforeExport": "missing",
+  "roots": [
+    {
+      "kind": "world",
+      "path": "worlds/main.world.json"
+    }
+  ]
+}

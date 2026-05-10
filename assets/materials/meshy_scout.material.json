@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "meshy_scout_material",
+  "shader": "engine://shaders/src/lit",
+  "model": "lit",
+  "queue": "opaque",
+  "blend": "opaque",
+  "doubleSided": true,
+  "opacity": 1.0,
+  "baseColor": {
+    "x": 0.72,
+    "y": 0.78,
+    "z": 0.92
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "name": "island_vegetation",
+  "seed": 47,
+  "cellSizeMeters": 10.0,
+  "placementJitter": 0.9,
+  "prototypes": [
+    {
+      "id": "openworld_grass_short",
+      "displayName": "Open World Grass Short",
+      "meshAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_grass_01_01_01.mesh.json",
+      "materialSlots": [
+        {
+          "name": "MI_OpenWorldFoliage",
+          "materialAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_grass_01_01_01.materials/MI_OpenWorldFoliage.material.json"
+        }
+      ],
+      "biomeTags": ["grass", "coastal_grass"],
+      "surfaceTags": ["grass", "sand"],
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 1.15,
+      "scaleRange": {"min": 1.05, "max": 1.45},
+      "cardWidthMeters": 0.28,
+      "cardHeightMeters": 0.62,
+      "cardCount": 3,
+      "minHeight": -1.0,
+      "maxHeight": 80.0,
+      "minSlope": 0.0,
+      "maxSlope": 28.0,
+      "alignToNormal": 0.7,
+      "cullDistanceMeters": 34.0,
+      "castsShadow": false
+    },
+    {
+      "id": "openworld_grass_tall",
+      "displayName": "Open World Grass Tall",
+      "meshAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_grass_02_03_04.mesh.json",
+      "materialSlots": [
+        {
+          "name": "MI_OpenWorldFoliage",
+          "materialAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_grass_02_03_04.materials/MI_OpenWorldFoliage.material.json"
+        }
+      ],
+      "biomeTags": ["grass", "sparse_grass"],
+      "surfaceTags": ["grass"],
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.18,
+      "scaleRange": {"min": 0.7, "max": 0.95},
+      "cardWidthMeters": 0.42,
+      "cardHeightMeters": 0.9,
+      "cardCount": 3,
+      "minHeight": 0.5,
+      "maxHeight": 95.0,
+      "minSlope": 0.0,
+      "maxSlope": 24.0,
+      "alignToNormal": 0.55,
+      "cullDistanceMeters": 30.0,
+      "castsShadow": false
+    },
+    {
+      "id": "openworld_flower_patch",
+      "displayName": "Open World Flower Patch",
+      "meshAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_flower_04_02.mesh.json",
+      "materialSlots": [
+        {
+          "name": "MI_OpenWorldFoliage",
+          "materialAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_flower_04_02.materials/MI_OpenWorldFoliage.material.json"
+        }
+      ],
+      "biomeTags": ["flowers", "small_flowers"],
+      "surfaceTags": ["grass", "sand"],
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.035,
+      "scaleRange": {"min": 0.7, "max": 1.15},
+      "minHeight": -0.5,
+      "maxHeight": 70.0,
+      "minSlope": 0.0,
+      "maxSlope": 18.0,
+      "alignToNormal": 0.8,
+      "cullDistanceMeters": 30.0,
+      "castsShadow": false
+    }
+  ]
+}

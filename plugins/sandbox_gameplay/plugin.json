@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "id": "sandbox.gameplay",
+  "name": "Sandbox Gameplay",
+  "moduleVersion": "0.1.0",
+  "moduleKind": "project",
+  "delivery": "static",
+  "requiredPlugins": [
+    "engine.input.runtime",
+    "engine.animation.runtime",
+    "engine.state_machine.runtime",
+    "engine.animation.graph"
+  ],
+  "binaries": {
+    "webStaticTarget": "sandbox_plugin_gameplay_static"
+  },
+  "contributions": [
+    "systems"
+  ]
+}

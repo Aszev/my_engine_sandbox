@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "name": "large_island",
+  "size": {
+    "columns": 1025,
+    "rows": 1025,
+    "cellSize": 4.0,
+    "heightScale": 1.0
+  },
+  "seaLevel": 0.0,
+  "chunkResolution": 64,
+  "maxLod": 5,
+  "source": {
+    "kind": "procedural_island",
+    "seed": 47,
+    "radius": 1900.0,
+    "beachRadius": 1740.0,
+    "mountainHeight": 145.0,
+    "mountainFrequency": 2.7,
+    "detailHeight": 10.0,
+    "detailFrequency": 18.0,
+    "riverStrength": 22.0,
+    "riverCount": 4
+  },
+  "surfaces": [
+    {
+      "id": "grass",
+      "displayName": "Grass",
+      "albedoTexture": "raw_ue://PN_OpenWorldFoliage/textures/Textures__ground_Albedo.png",
+      "normalTexture": "raw_ue://PN_OpenWorldFoliage/textures/Textures__ground_Normal.png",
+      "heightTexture": "raw_ue://PN_OpenWorldFoliage/textures/Textures__ground_Height.png",
+      "tilingMeters": 5.0,
+      "friction": 0.82,
+      "footstepTag": "terrain.grass",
+      "gameplayTag": "terrain.surface.grass"
+    },
+    {
+      "id": "rock",
+      "displayName": "Rock",
+      "albedoTexture": "raw_ue://PN_OpenWorldFoliage/textures/Textures__ground_Albedo.png",
+      "normalTexture": "raw_ue://PN_OpenWorldFoliage/textures/Textures__ground_Normal.png",
+      "heightTexture": "raw_ue://PN_OpenWorldFoliage/textures/Textures__ground_Height.png",
+      "tilingMeters": 8.0,
+      "friction": 0.74,
+      "footstepTag": "terrain.rock",
+      "gameplayTag": "terrain.surface.rock"
+    },
+    {
+      "id": "sand",
+      "displayName": "Sand",
+      "albedoTexture": "raw_ue://PN_OpenWorldFoliage/textures/Textures__ground_Albedo.png",
+      "normalTexture": "raw_ue://PN_OpenWorldFoliage/textures/Textures__ground_Normal.png",
+      "heightTexture": "raw_ue://PN_OpenWorldFoliage/textures/Textures__ground_Height.png",
+      "tilingMeters": 4.0,
+      "friction": 0.62,
+      "footstepTag": "terrain.sand",
+      "gameplayTag": "terrain.surface.sand"
+    }
+  ],
+  "layers": [
+    {
+      "id": "beach",
+      "surface": "sand",
+      "minHeight": -20.0,
+      "maxHeight": 4.0,
+      "minSlope": 0.0,
+      "maxSlope": 18.0
+    },
+    {
+      "id": "plains",
+      "surface": "grass",
+      "minHeight": 0.0,
+      "maxHeight": 95.0,
+      "minSlope": 0.0,
+      "maxSlope": 42.0
+    },
+    {
+      "id": "cliffs",
+      "surface": "rock",
+      "minHeight": 28.0,
+      "maxHeight": 1000.0,
+      "minSlope": 28.0,
+      "maxSlope": 90.0
+    }
+  ],
+  "biomes": [
+    {
+      "id": "beach",
+      "displayName": "Beach",
+      "surface": "sand",
+      "minHeight": -20.0,
+      "maxHeight": 5.0,
+      "minSlope": 0.0,
+      "maxSlope": 22.0,
+      "minDistanceToWater": 0.0,
+      "maxDistanceToWater": 8.0,
+      "minMoisture": 0.75,
+      "maxMoisture": 1.0,
+      "vegetationTags": ["coastal_grass", "small_flowers"]
+    },
+    {
+      "id": "meadow",
+      "displayName": "Meadow",
+      "surface": "grass",
+      "minHeight": 0.0,
+      "maxHeight": 70.0,
+      "minSlope": 0.0,
+      "maxSlope": 28.0,
+      "minDistanceToWater": 4.0,
+      "maxDistanceToWater": 140.0,
+      "minMoisture": 0.20,
+      "maxMoisture": 0.95,
+      "vegetationTags": ["grass", "flowers"]
+    },
+    {
+      "id": "highland",
+      "displayName": "Highland",
+      "surface": "grass",
+      "minHeight": 45.0,
+      "maxHeight": 130.0,
+      "minSlope": 0.0,
+      "maxSlope": 38.0,
+      "minDistanceToWater": 30.0,
+      "maxDistanceToWater": 100000.0,
+      "minMoisture": 0.0,
+      "maxMoisture": 0.55,
+      "vegetationTags": ["sparse_grass", "shrubs"]
+    },
+    {
+      "id": "cliff",
+      "displayName": "Cliff",
+      "surface": "rock",
+      "minHeight": 8.0,
+      "maxHeight": 1000.0,
+      "minSlope": 28.0,
+      "maxSlope": 90.0,
+      "minDistanceToWater": 0.0,
+      "maxDistanceToWater": 100000.0,
+      "minMoisture": 0.0,
+      "maxMoisture": 1.0,
+      "vegetationTags": ["rocks", "sparse_grass"]
+    }
+  ]
+}

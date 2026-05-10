@@ -1,0 +1,309 @@
+{
+  "version": 2,
+  "name": "sunlit_meadow",
+  "viewport": {
+    "x": 32,
+    "y": 96,
+    "width": 960,
+    "height": 540,
+    "viewId": 1
+  },
+  "entities": [
+    {
+      "id": "Meadow Floor",
+      "components": [
+        {"type": "Name", "data": {"value": "Meadow Floor"}},
+        {"type": "Transform", "data": {"position": {"x": 0.0, "y": -0.08, "z": 0.0}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 18.0, "y": 0.16, "z": 14.0}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_grass.material.json"}}
+      ]
+    },
+    {
+      "id": "Golden Path 1",
+      "components": [
+        {"type": "Name", "data": {"value": "Golden Path 1"}},
+        {"type": "Transform", "data": {"position": {"x": -1.8, "y": 0.02, "z": 3.4}, "rotation": {"w": 0.985, "x": 0.0, "y": 0.174, "z": 0.0}, "scale": {"x": 2.1, "y": 0.04, "z": 0.75}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_path.material.json"}}
+      ]
+    },
+    {
+      "id": "Golden Path 2",
+      "components": [
+        {"type": "Name", "data": {"value": "Golden Path 2"}},
+        {"type": "Transform", "data": {"position": {"x": -0.7, "y": 0.025, "z": 1.9}, "rotation": {"w": 0.996, "x": 0.0, "y": 0.087, "z": 0.0}, "scale": {"x": 2.0, "y": 0.04, "z": 0.70}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_path.material.json"}}
+      ]
+    },
+    {
+      "id": "Golden Path 3",
+      "components": [
+        {"type": "Name", "data": {"value": "Golden Path 3"}},
+        {"type": "Transform", "data": {"position": {"x": 0.2, "y": 0.03, "z": 0.4}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 2.0, "y": 0.04, "z": 0.65}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_path.material.json"}}
+      ]
+    },
+    {
+      "id": "Golden Path 4",
+      "components": [
+        {"type": "Name", "data": {"value": "Golden Path 4"}},
+        {"type": "Transform", "data": {"position": {"x": 1.0, "y": 0.035, "z": -1.1}, "rotation": {"w": 0.996, "x": 0.0, "y": -0.087, "z": 0.0}, "scale": {"x": 1.8, "y": 0.04, "z": 0.60}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_path.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 01 Trunk",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 01 Trunk"}},
+        {"type": "Transform", "data": {"position": {"x": -7.2, "y": 0.7, "z": -5.5}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 0.35, "y": 1.4, "z": 0.35}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_trunk.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 01 Crown",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 01 Crown"}},
+        {"type": "Transform", "data": {"position": {"x": -7.2, "y": 1.45, "z": -5.5}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.45, "y": 1.65, "z": 1.45}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_pine_crown.obj", "materialAsset": "asset://materials/meadow_forest.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 02 Trunk",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 02 Trunk"}},
+        {"type": "Transform", "data": {"position": {"x": -5.3, "y": 0.85, "z": -6.0}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 0.38, "y": 1.7, "z": 0.38}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_trunk.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 02 Crown",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 02 Crown"}},
+        {"type": "Transform", "data": {"position": {"x": -5.3, "y": 1.7, "z": -6.0}, "rotation": {"w": 0.966, "x": 0.0, "y": 0.259, "z": 0.0}, "scale": {"x": 1.65, "y": 1.85, "z": 1.65}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_pine_crown.obj", "materialAsset": "asset://materials/meadow_forest.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 03 Trunk",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 03 Trunk"}},
+        {"type": "Transform", "data": {"position": {"x": -3.5, "y": 0.75, "z": -5.4}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 0.32, "y": 1.5, "z": 0.32}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_trunk.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 03 Crown",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 03 Crown"}},
+        {"type": "Transform", "data": {"position": {"x": -3.5, "y": 1.55, "z": -5.4}, "rotation": {"w": 0.924, "x": 0.0, "y": -0.383, "z": 0.0}, "scale": {"x": 1.35, "y": 1.55, "z": 1.35}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_pine_crown.obj", "materialAsset": "asset://materials/meadow_forest.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 04 Trunk",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 04 Trunk"}},
+        {"type": "Transform", "data": {"position": {"x": -1.6, "y": 0.9, "z": -6.1}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 0.40, "y": 1.8, "z": 0.40}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_trunk.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 04 Crown",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 04 Crown"}},
+        {"type": "Transform", "data": {"position": {"x": -1.6, "y": 1.85, "z": -6.1}, "rotation": {"w": 0.991, "x": 0.0, "y": 0.131, "z": 0.0}, "scale": {"x": 1.75, "y": 1.95, "z": 1.75}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_pine_crown.obj", "materialAsset": "asset://materials/meadow_forest.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 05 Trunk",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 05 Trunk"}},
+        {"type": "Transform", "data": {"position": {"x": 0.8, "y": 0.8, "z": -5.6}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 0.34, "y": 1.6, "z": 0.34}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_trunk.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 05 Crown",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 05 Crown"}},
+        {"type": "Transform", "data": {"position": {"x": 0.8, "y": 1.65, "z": -5.6}, "rotation": {"w": 0.966, "x": 0.0, "y": -0.259, "z": 0.0}, "scale": {"x": 1.55, "y": 1.75, "z": 1.55}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_pine_crown.obj", "materialAsset": "asset://materials/meadow_forest.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 06 Trunk",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 06 Trunk"}},
+        {"type": "Transform", "data": {"position": {"x": 3.0, "y": 0.95, "z": -6.2}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 0.42, "y": 1.9, "z": 0.42}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_trunk.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 06 Crown",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 06 Crown"}},
+        {"type": "Transform", "data": {"position": {"x": 3.0, "y": 1.95, "z": -6.2}, "rotation": {"w": 0.924, "x": 0.0, "y": 0.383, "z": 0.0}, "scale": {"x": 1.80, "y": 2.05, "z": 1.80}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_pine_crown.obj", "materialAsset": "asset://materials/meadow_forest.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 07 Trunk",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 07 Trunk"}},
+        {"type": "Transform", "data": {"position": {"x": 5.4, "y": 0.7, "z": -5.3}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 0.32, "y": 1.4, "z": 0.32}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_trunk.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 07 Crown",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 07 Crown"}},
+        {"type": "Transform", "data": {"position": {"x": 5.4, "y": 1.45, "z": -5.3}, "rotation": {"w": 0.991, "x": 0.0, "y": -0.131, "z": 0.0}, "scale": {"x": 1.35, "y": 1.60, "z": 1.35}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_pine_crown.obj", "materialAsset": "asset://materials/meadow_forest.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 08 Trunk",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 08 Trunk"}},
+        {"type": "Transform", "data": {"position": {"x": 7.4, "y": 0.85, "z": -5.9}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 0.38, "y": 1.7, "z": 0.38}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_trunk.material.json"}}
+      ]
+    },
+    {
+      "id": "Tree 08 Crown",
+      "components": [
+        {"type": "Name", "data": {"value": "Tree 08 Crown"}},
+        {"type": "Transform", "data": {"position": {"x": 7.4, "y": 1.75, "z": -5.9}, "rotation": {"w": 0.966, "x": 0.0, "y": 0.259, "z": 0.0}, "scale": {"x": 1.65, "y": 1.85, "z": 1.65}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_pine_crown.obj", "materialAsset": "asset://materials/meadow_forest.material.json"}}
+      ]
+    },
+    {
+      "id": "Grass Clump 01",
+      "components": [
+        {"type": "Name", "data": {"value": "Grass Clump 01"}},
+        {"type": "Transform", "data": {"position": {"x": -6.7, "y": 0.0, "z": 2.4}, "rotation": {"w": 0.966, "x": 0.0, "y": 0.259, "z": 0.0}, "scale": {"x": 0.75, "y": 0.80, "z": 0.75}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_grass_blade.obj", "materialAsset": "asset://materials/meadow_light_grass.material.json"}}
+      ]
+    },
+    {
+      "id": "Grass Clump 02",
+      "components": [
+        {"type": "Name", "data": {"value": "Grass Clump 02"}},
+        {"type": "Transform", "data": {"position": {"x": -5.4, "y": 0.0, "z": 4.1}, "rotation": {"w": 0.866, "x": 0.0, "y": -0.500, "z": 0.0}, "scale": {"x": 0.85, "y": 0.95, "z": 0.85}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_grass_blade.obj", "materialAsset": "asset://materials/meadow_light_grass.material.json"}}
+      ]
+    },
+    {
+      "id": "Grass Clump 03",
+      "components": [
+        {"type": "Name", "data": {"value": "Grass Clump 03"}},
+        {"type": "Transform", "data": {"position": {"x": -3.1, "y": 0.0, "z": 3.2}, "rotation": {"w": 0.924, "x": 0.0, "y": 0.383, "z": 0.0}, "scale": {"x": 0.65, "y": 0.90, "z": 0.65}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_grass_blade.obj", "materialAsset": "asset://materials/meadow_light_grass.material.json"}}
+      ]
+    },
+    {
+      "id": "Grass Clump 04",
+      "components": [
+        {"type": "Name", "data": {"value": "Grass Clump 04"}},
+        {"type": "Transform", "data": {"position": {"x": 2.8, "y": 0.0, "z": 3.8}, "rotation": {"w": 0.793, "x": 0.0, "y": -0.609, "z": 0.0}, "scale": {"x": 0.95, "y": 1.05, "z": 0.95}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_grass_blade.obj", "materialAsset": "asset://materials/meadow_light_grass.material.json"}}
+      ]
+    },
+    {
+      "id": "Grass Clump 05",
+      "components": [
+        {"type": "Name", "data": {"value": "Grass Clump 05"}},
+        {"type": "Transform", "data": {"position": {"x": 5.8, "y": 0.0, "z": 2.7}, "rotation": {"w": 0.991, "x": 0.0, "y": 0.131, "z": 0.0}, "scale": {"x": 0.80, "y": 0.85, "z": 0.80}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_grass_blade.obj", "materialAsset": "asset://materials/meadow_light_grass.material.json"}}
+      ]
+    },
+    {
+      "id": "Grass Clump 06",
+      "components": [
+        {"type": "Name", "data": {"value": "Grass Clump 06"}},
+        {"type": "Transform", "data": {"position": {"x": 6.6, "y": 0.0, "z": -0.4}, "rotation": {"w": 0.866, "x": 0.0, "y": 0.500, "z": 0.0}, "scale": {"x": 0.70, "y": 0.90, "z": 0.70}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_grass_blade.obj", "materialAsset": "asset://materials/meadow_grass.material.json"}}
+      ]
+    },
+    {
+      "id": "Grass Clump 07",
+      "components": [
+        {"type": "Name", "data": {"value": "Grass Clump 07"}},
+        {"type": "Transform", "data": {"position": {"x": -6.2, "y": 0.0, "z": -0.8}, "rotation": {"w": 0.707, "x": 0.0, "y": 0.707, "z": 0.0}, "scale": {"x": 0.95, "y": 1.10, "z": 0.95}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_grass_blade.obj", "materialAsset": "asset://materials/meadow_grass.material.json"}}
+      ]
+    },
+    {
+      "id": "Grass Clump 08",
+      "components": [
+        {"type": "Name", "data": {"value": "Grass Clump 08"}},
+        {"type": "Transform", "data": {"position": {"x": -4.1, "y": 0.0, "z": -2.7}, "rotation": {"w": 0.924, "x": 0.0, "y": -0.383, "z": 0.0}, "scale": {"x": 0.75, "y": 0.95, "z": 0.75}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_grass_blade.obj", "materialAsset": "asset://materials/meadow_grass.material.json"}}
+      ]
+    },
+    {
+      "id": "Grass Clump 09",
+      "components": [
+        {"type": "Name", "data": {"value": "Grass Clump 09"}},
+        {"type": "Transform", "data": {"position": {"x": 3.9, "y": 0.0, "z": -2.6}, "rotation": {"w": 0.793, "x": 0.0, "y": 0.609, "z": 0.0}, "scale": {"x": 0.78, "y": 0.90, "z": 0.78}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_grass_blade.obj", "materialAsset": "asset://materials/meadow_grass.material.json"}}
+      ]
+    },
+    {
+      "id": "Flower 01",
+      "components": [
+        {"type": "Name", "data": {"value": "Flower 01"}},
+        {"type": "Transform", "data": {"position": {"x": -2.6, "y": 0.18, "z": 2.6}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 0.18, "y": 0.18, "z": 0.18}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_flower.material.json"}}
+      ]
+    },
+    {
+      "id": "Flower 02",
+      "components": [
+        {"type": "Name", "data": {"value": "Flower 02"}},
+        {"type": "Transform", "data": {"position": {"x": 4.5, "y": 0.18, "z": 2.1}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 0.16, "y": 0.16, "z": 0.16}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/hello_cube.obj", "materialAsset": "asset://materials/meadow_flower.material.json"}}
+      ]
+    },
+    {
+      "id": "Rock 01",
+      "components": [
+        {"type": "Name", "data": {"value": "Rock 01"}},
+        {"type": "Transform", "data": {"position": {"x": -4.4, "y": 0.0, "z": 1.1}, "rotation": {"w": 0.966, "x": 0.0, "y": 0.259, "z": 0.0}, "scale": {"x": 0.70, "y": 0.55, "z": 0.70}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_rock.obj", "materialAsset": "asset://materials/meadow_rock.material.json"}}
+      ]
+    },
+    {
+      "id": "Rock 02",
+      "components": [
+        {"type": "Name", "data": {"value": "Rock 02"}},
+        {"type": "Transform", "data": {"position": {"x": 5.0, "y": 0.0, "z": -1.1}, "rotation": {"w": 0.866, "x": 0.0, "y": -0.500, "z": 0.0}, "scale": {"x": 0.50, "y": 0.45, "z": 0.50}}},
+        {"type": "MeshRenderer", "data": {"meshAsset": "asset://models/meadow_rock.obj", "materialAsset": "asset://materials/meadow_rock.material.json"}}
+      ]
+    },
+    {
+      "id": "Sun Light",
+      "components": [
+        {"type": "Name", "data": {"value": "Sun Light"}},
+        {"type": "Transform", "data": {"position": {"x": -3.0, "y": 7.0, "z": 4.0}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}}},
+        {"type": "Light", "data": {"color": {"x": 1.0, "y": 0.93, "z": 0.76}, "intensity": 1.55}}
+      ]
+    },
+    {
+      "id": "Soft Fill Light",
+      "components": [
+        {"type": "Name", "data": {"value": "Soft Fill Light"}},
+        {"type": "Transform", "data": {"position": {"x": 5.0, "y": 4.0, "z": 6.0}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}}},
+        {"type": "Light", "data": {"color": {"x": 0.55, "y": 0.72, "z": 1.0}, "intensity": 0.35}}
+      ]
+    },
+    {
+      "id": "Meadow Camera",
+      "components": [
+        {"type": "Name", "data": {"value": "Meadow Camera"}},
+        {"type": "Transform", "data": {"position": {"x": 0.0, "y": 1.0, "z": 11.5}, "rotation": {"w": 1.0, "x": 0.0, "y": 0.0, "z": 0.0}, "scale": {"x": 1.0, "y": 1.0, "z": 1.0}}},
+        {"type": "Camera", "data": {"role": "editor_main", "fovY": 58.0, "nearPlane": 0.1, "farPlane": 1000.0}}
+      ]
+    }
+  ]
+}

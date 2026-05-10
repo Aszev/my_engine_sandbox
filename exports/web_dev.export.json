@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "name": "web_dev",
+  "platform": "web-wasm",
+  "config": "development",
+  "runtimeTarget": "sandbox_app",
+  "buildPreset": "web-debug",
+  "buildRoot": "../my_engine/build/web-debug",
+  "buildConfig": "Debug",
+  "buildBeforeExport": "missing",
+  "roots": [
+    {
+      "kind": "world",
+      "path": "worlds/main.world.json"
+    }
+  ]
+}

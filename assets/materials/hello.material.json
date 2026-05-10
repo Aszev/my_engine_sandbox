@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "name": "hello_material",
+  "shader": "engine://shaders/src/debug-color",
+  "blend": "opaque",
+  "doubleSided": false,
+  "opacity": 1.0,
+  "baseColor": {
+    "x": 1.0,
+    "y": 0.82,
+    "z": 0.42
+  }
+}

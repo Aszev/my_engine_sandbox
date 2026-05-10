@@ -1,0 +1,983 @@
+{
+  "version": 2,
+  "name": "fab_meadow_flowers_showroom",
+  "viewport": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 720,
+    "viewId": 1
+  },
+  "entities": [
+    {
+      "id": "Meshes__flowerMesh__flower_01_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_01_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -3.3,
+              "y": 0,
+              "z": -2.4749999999999996
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0,
+              "y": 0.0,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_01_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_01_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_01_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_02_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_02_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -1.65,
+              "y": 0,
+              "z": -2.4749999999999996
+            },
+            "rotation": {
+              "w": 0.9483236552061993,
+              "x": 0,
+              "y": 0.31730465640509214,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_02_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_02_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_02_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_03_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_03_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0,
+              "z": -2.4749999999999996
+            },
+            "rotation": {
+              "w": 0.7986355100472928,
+              "x": 0,
+              "y": 0.6018150231520483,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_03_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_03_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_03_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_04_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_04_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 1.65,
+              "y": 0,
+              "z": -2.4749999999999996
+            },
+            "rotation": {
+              "w": 0.5664062369248328,
+              "x": 0,
+              "y": 0.8241261886220157,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_04_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_04_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_04_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_05_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_05_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 3.3,
+              "y": 0,
+              "z": -2.4749999999999996
+            },
+            "rotation": {
+              "w": 0.27563735581699916,
+              "x": 0,
+              "y": 0.9612616959383189,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_05_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_05_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_05_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_06_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_06_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -3.3,
+              "y": 0,
+              "z": -0.825
+            },
+            "rotation": {
+              "w": -0.04361938736533589,
+              "x": 0,
+              "y": 0.9990482215818578,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_06_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_06_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_06_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_07_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_07_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -1.65,
+              "y": 0,
+              "z": -0.825
+            },
+            "rotation": {
+              "w": -0.35836794954530027,
+              "x": 0,
+              "y": 0.9335804264972017,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_07_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_07_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_07_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_08_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_08_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0,
+              "z": -0.825
+            },
+            "rotation": {
+              "w": -0.6360782202777641,
+              "x": 0,
+              "y": 0.7716245833877199,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_08_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_08_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_08_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_09_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_09_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 1.65,
+              "y": 0,
+              "z": -0.825
+            },
+            "rotation": {
+              "w": -0.848048096156426,
+              "x": 0,
+              "y": 0.5299192642332049,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_09_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_09_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_09_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_10_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_10_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 3.3,
+              "y": 0,
+              "z": -0.825
+            },
+            "rotation": {
+              "w": -0.9723699203976766,
+              "x": 0,
+              "y": 0.23344536385590553,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_10_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_10_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_10_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_11_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_11_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -3.3,
+              "y": 0,
+              "z": 0.825
+            },
+            "rotation": {
+              "w": 0.9961946980917455,
+              "x": 0,
+              "y": 0.08715574274765817,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_11_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_11_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_11_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_12_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_12_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -1.65,
+              "y": 0,
+              "z": 0.825
+            },
+            "rotation": {
+              "w": 0.917060074385124,
+              "x": 0,
+              "y": 0.3987490689252462,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_12_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_12_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_12_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_13_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_13_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0,
+              "z": 0.825
+            },
+            "rotation": {
+              "w": 0.7431448254773942,
+              "x": 0,
+              "y": 0.6691306063588582,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_13_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_13_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_13_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_14_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_14_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 1.65,
+              "y": 0,
+              "z": 0.825
+            },
+            "rotation": {
+              "w": 0.4924235601034671,
+              "x": 0,
+              "y": 0.8703556959398997,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_14_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_14_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_14_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_15_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_15_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 3.3,
+              "y": 0,
+              "z": 0.825
+            },
+            "rotation": {
+              "w": 0.19080899537654492,
+              "x": 0,
+              "y": 0.981627183447664,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_15_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_15_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_15_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_16_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_16_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -3.3,
+              "y": 0,
+              "z": 2.4749999999999996
+            },
+            "rotation": {
+              "w": -0.1305261922200516,
+              "x": 0,
+              "y": 0.9914448613738104,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_16_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_16_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_16_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_17_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_17_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -1.65,
+              "y": 0,
+              "z": 2.4749999999999996
+            },
+            "rotation": {
+              "w": -0.4383711467890775,
+              "x": 0,
+              "y": 0.8987940462991669,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_17_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_17_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_17_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_18_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_18_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0,
+              "z": 2.4749999999999996
+            },
+            "rotation": {
+              "w": -0.7009092642998509,
+              "x": 0,
+              "y": 0.7132504491541816,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_18_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_18_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_18_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_19_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_19_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 1.65,
+              "y": 0,
+              "z": 2.4749999999999996
+            },
+            "rotation": {
+              "w": -0.8910065241883678,
+              "x": 0,
+              "y": 0.45399049973954686,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_19_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_19_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_19_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshes__flowerMesh__flower_20_01",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshes__flowerMesh__flower_20_01"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 3.3,
+              "y": 0,
+              "z": 2.4749999999999996
+            },
+            "rotation": {
+              "w": -0.9890158633619168,
+              "x": 0,
+              "y": 0.14780941112961082,
+              "z": 0
+            },
+            "scale": {
+              "x": 3.0,
+              "y": 3.0,
+              "z": 3.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_20_01.mesh.json",
+            "materialSlots": [
+              {
+                "name": "flower_20_01_Mat",
+                "materialAsset": "asset://fab/PN_MeadowFlowers/samples/Meshes__flowerMesh__flower_20_01.materials/MI_MeadowFlowers.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Key Light",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Key Light"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -3.5,
+              "y": 5.0,
+              "z": -4.0
+            },
+            "rotation": {
+              "w": 1,
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "kind": "directional",
+            "color": {
+              "x": 1.0,
+              "y": 0.94,
+              "z": 0.82
+            },
+            "intensity": 4.0,
+            "direction": {
+              "x": -0.45,
+              "y": -0.8,
+              "z": -0.25
+            },
+            "range": 20.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Camera",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Camera"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0,
+              "y": 3.2,
+              "z": -9.0
+            },
+            "rotation": {
+              "w": 0.9659,
+              "x": 0.2588,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "fovYDegrees": 55.0,
+            "nearPlane": 0.05,
+            "farPlane": 200.0
+          }
+        }
+      ]
+    }
+  ]
+}

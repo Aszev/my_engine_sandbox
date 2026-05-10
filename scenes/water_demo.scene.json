@@ -1,0 +1,222 @@
+{
+  "version": 2,
+  "name": "water_demo",
+  "viewport": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 720,
+    "viewId": 1
+  },
+  "entities": [
+    {
+      "id": "Sunny Ocean",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Sunny Ocean"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "WaterBody",
+          "data": {
+            "preset": "custom",
+            "surface": {
+              "kind": "infinite_ocean",
+              "phase": "liquid",
+              "quality": "high",
+              "ocean": {
+                "radius": 20000.0,
+                "gridScale": 8.0,
+                "lodBias": 0.9
+              }
+            },
+            "waves": {
+              "seed": 7,
+              "windDirection": {
+                "x": 0.9417419,
+                "y": 0.3389869
+              },
+              "windSpeed": 14.0,
+              "waveHeight": 1.05,
+              "choppiness": 0.82,
+              "normalStrength": 1.10,
+              "foamThreshold": 0.70
+            },
+            "material": {
+              "materialAsset": "asset://materials/water_sunny_assets.material.json",
+              "shallowColor": {
+                "x": 0.045,
+                "y": 0.31,
+                "z": 0.38
+              },
+              "deepColor": {
+                "x": 0.006,
+                "y": 0.075,
+                "z": 0.18
+              },
+              "absorption": 0.16,
+              "roughness": 0.065,
+              "sunGlint": 0.82
+            },
+            "optics": {
+              "fresnelPower": 5.0,
+              "reflectionStrength": 0.68,
+              "refractionStrength": 0.12,
+              "depthFadeDistance": 38.0,
+              "horizonReflection": 0.12,
+              "distanceFog": 0.30
+            },
+            "foam": {
+              "mode": "texture",
+              "crestStrength": 0.32,
+              "shorelineStrength": 0.0,
+              "shorelineDepth": 1.4,
+              "noiseScale": 0.050
+            },
+            "reflection": {
+              "mode": "sky_only",
+              "roughnessScale": 0.85,
+              "probeBlend": 0.0
+            },
+            "refraction": {
+              "mode": "scene_color",
+              "distortionScale": 0.025,
+              "absorptionScale": 1.0
+            },
+            "textures": {
+              "detailNormalA": "raw://water/cadhatch_seamless_water/water_0347normal.jpg",
+              "detailNormalB": "raw://water/opengameart_keith333_water_batch/SeaWaves_N.jpg",
+              "foamMask": "raw://water/opengameart_keith333_water_batch/Foam_S.jpg",
+              "noise": "raw://water/momentsingraphics_blue_noise/selected_64x64_ldr_rgba/ldr_rgba_0.png",
+              "blueNoise": "raw://water/momentsingraphics_blue_noise/selected_64x64_ldr_rgba/ldr_rgba_17.png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Sun Light",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Sun Light"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 40.0,
+              "y": 180.0,
+              "z": -650.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "color": {
+              "x": 1.0,
+              "y": 0.96,
+              "z": 0.86
+            },
+            "intensity": 1.45
+          }
+        }
+      ]
+    },
+    {
+      "id": "Camera",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Camera"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 5.5,
+              "z": 36.0
+            },
+            "rotation": {
+              "w": 0.9978589,
+              "x": -0.0654031,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "role": "editor_main",
+            "fovY": 60.0,
+            "nearPlane": 0.1,
+            "farPlane": 50000.0
+          }
+        },
+        {
+          "type": "CameraRig",
+          "data": {
+            "mode": "free_fly",
+            "enabled": true,
+            "moveSpeed": 18.0,
+            "fastMoveMultiplier": 6.0,
+            "lookSensitivity": 0.0032,
+            "smoothing": 0.0,
+            "followOffset": {
+              "x": 0.0,
+              "y": 2.0,
+              "z": -5.0
+            },
+            "collisionRadius": 0.25
+          }
+        }
+      ]
+    }
+  ]
+}

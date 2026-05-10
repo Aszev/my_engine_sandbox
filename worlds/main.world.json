@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "name": "main",
+  "type": "runtime",
+  "domain": "play_scene",
+  "runtimePlugins": {
+    "required": [
+      "engine.platform.sdl",
+      "engine.render.bgfx",
+      "engine.ui.runtime",
+      "engine.ui.rmlui.foundation",
+      "engine.ui.rmlui",
+      "engine.ui.game_menu",
+      "engine.ecs.flecs"
+    ],
+    "optional": [],
+    "desktopDynamic": []
+  },
+  "startupScenes": [
+    {
+      "scene": "../scenes/main.scene.json",
+      "primary": true
+    }
+  ]
+}

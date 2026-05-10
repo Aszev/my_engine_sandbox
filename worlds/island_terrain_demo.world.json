@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "name": "island_terrain_demo",
+  "type": "runtime",
+  "domain": "play_scene",
+  "tickPolicy": "foreground",
+  "runtimePlugins": {
+    "required": [
+      "engine.platform.sdl",
+      "engine.render.bgfx",
+      "engine.animation.runtime",
+      "engine.state_machine.runtime",
+      "engine.animation.graph",
+      "engine.character.runtime",
+      "engine.input.runtime",
+      "engine.render.water",
+      "engine.camera.runtime",
+      "engine.render.skinned_mesh",
+      "engine.physics.jolt",
+      "engine.terrain.runtime",
+      "engine.vegetation.runtime",
+      "engine.ui.runtime",
+      "engine.ui.rmlui.foundation",
+      "engine.ui.rmlui",
+      "engine.ui.game_menu",
+      "engine.ecs.flecs",
+      "sandbox.gameplay"
+    ],
+    "optional": [],
+    "desktopDynamic": []
+  },
+  "editorPlugins": {
+    "required": [],
+    "optional": [],
+    "desktopDynamic": []
+  },
+  "runtimeModules": [],
+  "editorModules": [],
+  "startupScenes": [
+    {
+      "scene": "../scenes/island_terrain_demo.scene.json",
+      "primary": true
+    }
+  ]
+}

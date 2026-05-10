@@ -1,0 +1,358 @@
+{
+  "version": 2,
+  "name": "island_terrain_demo",
+  "viewport": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 720,
+    "viewId": 1
+  },
+  "entities": [
+    {
+      "id": "Large Island Terrain",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Large Island Terrain"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Terrain",
+          "data": {
+            "terrainAsset": "asset://terrain/island.terrain.json",
+            "materialAsset": "plugin_terrain://materials/terrain.material.json",
+            "chunkResolution": 64,
+            "maxLod": 5,
+            "maxVisibleChunks": 420,
+            "lodDistanceScale": 0.9,
+            "viewDistanceMeters": 3200.0,
+            "collisionEnabled": true,
+            "debugChunks": false,
+            "debugLod": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Island Vegetation",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Island Vegetation"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Vegetation",
+          "data": {
+            "vegetationAsset": "asset://vegetation/island.vegetation.json",
+            "terrainEntityName": "Large Island Terrain",
+            "seed": 47,
+            "densityScale": 1.0,
+            "viewDistanceMeters": 34.0,
+            "enabled": true,
+            "debugCells": false,
+            "debugDensity": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "Sea",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Sea"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "WaterBody",
+          "data": {
+            "surface": {
+              "kind": "infinite_ocean",
+              "phase": "liquid",
+              "ocean": {
+                "radius": 8000.0,
+                "gridScale": 12.0,
+                "lodBias": 1.0
+              }
+            },
+            "waves": {
+              "seed": 19,
+              "windDirection": {
+                "x": 0.8,
+                "y": 0.35
+              },
+              "windSpeed": 7.0,
+              "waveHeight": 0.42,
+              "choppiness": 0.45,
+              "normalStrength": 0.75,
+              "foamThreshold": 0.82
+            },
+            "material": {
+              "shallowColor": {
+                "x": 0.05,
+                "y": 0.38,
+                "z": 0.42
+              },
+              "deepColor": {
+                "x": 0.0,
+                "y": 0.07,
+                "z": 0.16
+              },
+              "absorption": 0.18,
+              "roughness": 0.08,
+              "sunGlint": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Sun",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Sun"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -320.0,
+              "y": 420.0,
+              "z": 180.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "DirectionalLight",
+          "data": {
+            "enabled": true,
+            "direction": {
+              "x": 0.5729870200157166,
+              "y": -0.7520449757575989,
+              "z": -0.32230499386787415
+            },
+            "color": {
+              "x": 1.0,
+              "y": 0.9599999785423279,
+              "z": 0.8600000143051147
+            },
+            "intensity": 2.3499999046325684
+          }
+        }
+      ]
+    },
+    {
+      "id": "Sky",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Sky"
+          }
+        },
+        {
+          "type": "Sky",
+          "data": {
+            "enabled": true,
+            "zenithColor": {
+              "x": 0.34,
+              "y": 0.62,
+              "z": 0.88
+            },
+            "horizonColor": {
+              "x": 0.78,
+              "y": 0.88,
+              "z": 0.96
+            },
+            "fogColor": {
+              "x": 0.72,
+              "y": 0.82,
+              "z": 0.88
+            },
+            "fogDensity": 0.035,
+            "exposure": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Player Spawn",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Player Spawn"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -600.0,
+              "y": 80.0,
+              "z": 400.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "SpawnPoint",
+          "data": {
+            "prefab": "asset://prefabs/meshy_player.prefab.json",
+            "spawnOnStart": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "Editor Camera",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Editor Camera"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -220.0,
+              "y": 140.0,
+              "z": 620.0
+            },
+            "rotation": {
+              "w": 0.976296,
+              "x": -0.21644,
+              "y": -0.035,
+              "z": -0.008
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "role": "editor_main",
+            "fovY": 55.0,
+            "nearPlane": 0.1,
+            "farPlane": 6000.0
+          }
+        },
+        {
+          "type": "CameraRig",
+          "data": {
+            "mode": "free_fly",
+            "enabled": true,
+            "moveSpeed": 80.0,
+            "fastMoveMultiplier": 6.0,
+            "lookSensitivity": 0.0032,
+            "smoothing": 0.0,
+            "followOffset": {
+              "x": 0.0,
+              "y": 2.0,
+              "z": -5.0
+            },
+            "collisionRadius": 0.25
+          }
+        }
+      ]
+    }
+  ]
+}

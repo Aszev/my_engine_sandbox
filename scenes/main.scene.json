@@ -1,0 +1,260 @@
+{
+  "version": 2,
+  "name": "main",
+  "uiDocument": "asset://ui/main.rml",
+  "viewport": {
+    "x": 120,
+    "y": 120,
+    "width": 1040,
+    "height": 580,
+    "viewId": 1
+  },
+  "entities": [
+    {
+      "id": "Greeting Core",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Greeting Core"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.25,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.35,
+              "y": 1.35,
+              "z": 1.35
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://models/hello_cube.obj",
+            "materialAsset": "asset://materials/hello.material.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Accent Companion",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Accent Companion"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 2.15,
+              "y": -0.15,
+              "z": -1.25
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.75,
+              "y": 0.75,
+              "z": 0.75
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://models/hello_cube.obj",
+            "materialAsset": "asset://materials/accent.material.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Ground Slab",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Ground Slab"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": -1.45,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 6.0,
+              "y": 0.25,
+              "z": 6.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://models/hello_cube.obj",
+            "materialAsset": "asset://materials/ground.material.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Sun Light",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Sun Light"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "color": {
+              "x": 1.0,
+              "y": 0.96,
+              "z": 0.88
+            },
+            "intensity": 1.15
+          }
+        }
+      ]
+    },
+    {
+      "id": "Camera",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Camera"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.65,
+              "z": 8.5
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "role": "editor_main",
+            "fovY": 60.0,
+            "nearPlane": 0.1,
+            "farPlane": 1000.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "meshy_ai_pilot_boat_sketches_0502150400_texture",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "ExternalAssetPlaceholder"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://models/hello_cube.obj",
+            "materialAsset": "asset://materials/accent.material.json",
+            "materialOverrides": [
+              {
+                "materialSlot": "Material_0",
+                "materialAsset": "asset://materials/accent.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

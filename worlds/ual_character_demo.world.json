@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "name": "ual_character_demo",
+  "type": "runtime",
+  "domain": "play_scene",
+  "runtimePlugins": {
+    "required": [
+      "engine.platform.sdl",
+      "engine.render.bgfx",
+      "engine.animation.runtime",
+      "engine.state_machine.runtime",
+        "engine.animation.graph",
+        "engine.character.runtime",
+        "engine.input.runtime",
+        "engine.camera.runtime",
+        "engine.render.skinned_mesh",
+      "engine.ecs.flecs",
+      "sandbox.gameplay"
+    ],
+    "optional": [],
+    "desktopDynamic": []
+  },
+  "startupScenes": [
+    {
+      "scene": "../scenes/ual_character_demo.scene.json",
+      "primary": true
+    }
+  ]
+}

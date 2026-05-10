@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Sandbox App",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/../my_engine/BuildProject.ps1",
+        "-Project",
+        "${workspaceFolder}/project.json"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/../my_engine"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Build Editor App",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/../.vscode/build_editor_app.ps1",
+        "-WorkspaceRoot",
+        "${workspaceFolder}/.."
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/.."
+      },
+      "group": "build",
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "name": "web_release",
+  "platform": "web-wasm",
+  "config": "release",
+  "runtimeTarget": "sandbox_app",
+  "buildPreset": "web-release",
+  "buildRoot": "../my_engine/build/web-release",
+  "buildConfig": "Release",
+  "buildBeforeExport": "missing",
+  "roots": [
+    {
+      "kind": "world",
+      "path": "worlds/main.world.json"
+    }
+  ]
+}

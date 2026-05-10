@@ -1,0 +1,235 @@
+{
+  "version": 2,
+  "name": "ual_character_demo",
+  "viewport": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 720,
+    "viewId": 1
+  },
+  "entities": [
+    {
+      "id": "UAL1 Mannequin",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "UAL1 Mannequin"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Animator",
+          "data": {
+            "skeletonAsset": "asset://characters/ual1/ual1.skeleton.json",
+            "clipAsset": "asset://characters/ual1/ual1.clips/Idle_Loop.animation.json",
+            "loop": true,
+            "playing": true,
+            "playbackSpeed": 1.0,
+            "timeSeconds": 0.0
+          }
+        },
+        {
+          "type": "AnimationGraph",
+          "data": {
+            "graph": "sandbox.ual_locomotion",
+            "state": "Idle",
+            "active": true
+          }
+        },
+        {
+          "type": "StateMachine",
+          "data": {
+            "machine": "sandbox.ual_locomotion",
+            "currentState": "Idle",
+            "active": true,
+            "parameters": [
+              {
+                "name": "speed",
+                "type": "float",
+                "value": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "type": "SkinnedMeshRenderer",
+          "data": {
+            "skinnedMeshAsset": "asset://characters/ual1/ual1.skinned_mesh.json",
+            "materialSlots": [
+              {
+                "name": "M_Main",
+                "materialAsset": "asset://materials/ual1_main.material.json"
+              },
+              {
+                "name": "M_Joints",
+                "materialAsset": "asset://materials/ual1_joints.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Ground Slab",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Ground Slab"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": -0.05,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 5.0,
+              "y": 0.08,
+              "z": 5.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://models/hello_cube.obj",
+            "materialAsset": "asset://materials/ground.material.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Key Light",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Key Light"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 3.0,
+              "y": 5.0,
+              "z": 4.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "color": {
+              "x": 1.0,
+              "y": 0.96,
+              "z": 0.88
+            },
+            "intensity": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Camera",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Camera"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 1.8,
+              "z": 5.5
+            },
+            "rotation": {
+              "w": 0.9876883,
+              "x": -0.1564345,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "role": "play_main",
+            "fovY": 55.0,
+            "nearPlane": 0.05,
+            "farPlane": 500.0
+          }
+        },
+        {
+          "type": "CameraRig",
+          "data": {
+            "mode": "free_fly",
+            "enabled": true,
+            "moveSpeed": 6.0,
+            "fastMoveMultiplier": 4.0,
+            "lookSensitivity": 0.0032,
+            "smoothing": 0.0,
+            "followOffset": {
+              "x": 0.0,
+              "y": 2.0,
+              "z": -5.0
+            },
+            "collisionRadius": 0.25
+          }
+        }
+      ]
+    }
+  ]
+}

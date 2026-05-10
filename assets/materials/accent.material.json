@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "name": "accent_material",
+  "shader": "engine://shaders/src/debug-color",
+  "blend": "alpha_blend",
+  "doubleSided": true,
+  "opacity": 0.92,
+  "baseColor": {
+    "x": 0.38,
+    "y": 0.72,
+    "z": 1.0
+  }
+}

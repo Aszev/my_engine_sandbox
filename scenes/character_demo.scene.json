@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "name": "character_demo",
+  "viewport": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 720,
+    "viewId": 1
+  },
+  "entities": [
+    {
+      "id": "Meshy Scout",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshy Scout"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Animator",
+          "data": {
+            "skeletonAsset": "asset://characters/meshy_scout/meshy_scout.skeleton.json",
+            "clipAsset": "asset://characters/meshy_scout/meshy_scout.clips/Running_baselayer_clip0001.animation.json",
+            "loop": true,
+            "playing": true,
+            "playbackSpeed": 1.0,
+            "timeSeconds": 0.0
+          }
+        },
+        {
+          "type": "SkinnedMeshRenderer",
+          "data": {
+            "skinnedMeshAsset": "asset://characters/meshy_scout/meshy_scout.skinned_mesh.json",
+            "materialSlots": [
+              {
+                "name": "Material_1",
+                "materialAsset": "asset://materials/meshy_scout.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Ground Slab",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Ground Slab"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": -0.05,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 5.0,
+              "y": 0.08,
+              "z": 5.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://models/hello_cube.obj",
+            "materialAsset": "asset://materials/ground.material.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Key Light",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Key Light"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 3.0,
+              "y": 5.0,
+              "z": 4.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Light",
+          "data": {
+            "color": {
+              "x": 1.0,
+              "y": 0.96,
+              "z": 0.88
+            },
+            "intensity": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Camera",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Camera"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 1.8,
+              "z": 5.5
+            },
+            "rotation": {
+              "w": 0.9876883,
+              "x": -0.1564345,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "role": "editor_main",
+            "fovY": 55.0,
+            "nearPlane": 0.05,
+            "farPlane": 500.0
+          }
+        },
+        {
+          "type": "CameraRig",
+          "data": {
+            "mode": "free_fly",
+            "enabled": true,
+            "moveSpeed": 6.0,
+            "fastMoveMultiplier": 4.0,
+            "lookSensitivity": 0.0032,
+            "smoothing": 0.0,
+            "followOffset": {
+              "x": 0.0,
+              "y": 2.0,
+              "z": -5.0
+            },
+            "collisionRadius": 0.25
+          }
+        }
+      ]
+    }
+  ]
+}

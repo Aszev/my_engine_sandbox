@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "name": "ground_material",
+  "shader": "engine://shaders/src/debug-color",
+  "blend": "opaque",
+  "doubleSided": false,
+  "opacity": 1.0,
+  "baseColor": {
+    "x": 0.23,
+    "y": 0.28,
+    "z": 0.34
+  }
+}

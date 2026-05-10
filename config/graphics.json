@@ -1,0 +1,12 @@
+{
+  "resolution_scale": 2.0,
+  "anti_aliasing": "none",
+  "upscale_filter": "bilinear",
+  "shadows": "off",
+  "ambient_occlusion": "off",
+  "reflections": "off",
+  "bloom": false,
+  "color_grading": false,
+  "motion_blur": false,
+  "post_processing": true
+}

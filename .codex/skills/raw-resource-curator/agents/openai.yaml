@@ -1,0 +1,7 @@
+interface:
+  display_name: "Raw Resource Curator"
+  short_description: "Catalog raw asset packs"
+  default_prompt: "Use $raw-resource-curator to catalog this raw resource pack, extract reusable assets, and preserve source/license metadata."
+
+policy:
+  allow_implicit_invocation: true

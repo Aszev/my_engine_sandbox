@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "name": "sandbox_app",
+  "displayName": "Sandbox",
+  "extends": "engine://project_bases/game_3d.project.json",
+  "type": "windowed",
+  "entry": "src/main.cpp",
+  "startupWorld": "worlds/main.world.json",
+  "runtimePlugins": {
+    "required": [
+      "sandbox.gameplay"
+    ],
+    "optional": [],
+    "desktopDynamic": []
+  },
+  "editorPlugins": {
+    "required": [],
+    "optional": [],
+    "desktopDynamic": []
+  },
+  "resourceAliases": [
+    {
+      "alias": "thirdparty_bgfx",
+      "sourceRoot": "engine:external_src/bgfx/examples",
+      "descriptorRoot": ".azassets/thirdparty_bgfx",
+      "autoImport": false
+    },
+    {
+      "alias": "thirdparty_lucide",
+      "sourceRoot": "engine:external_src/lucide/icons",
+      "descriptorRoot": ".azassets/thirdparty_lucide",
+      "autoImport": true
+    },
+    {
+      "alias": "raw",
+      "sourceRoot": "raw",
+      "descriptorRoot": ".azassets/raw",
+      "autoImport": true
+    },
+    {
+      "alias": "raw_ue",
+      "sourceRoot": "../raw.ue",
+      "descriptorRoot": ".azassets/raw_ue",
+      "autoImport": true
+    }
+  ]
+}

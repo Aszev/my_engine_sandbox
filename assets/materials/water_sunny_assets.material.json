@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "name": "water_sunny_assets",
+  "model": "custom",
+  "queue": "transparent",
+  "shader": "plugin_water://shaders/src/water",
+  "blend": "alpha",
+  "depthTest": "less_equal",
+  "cull": "none",
+  "doubleSided": true,
+  "depthWrite": false,
+  "opacity": 0.92,
+  "baseColor": {
+    "x": 0.005,
+    "y": 0.085,
+    "z": 0.28
+  },
+  "uniforms": [
+    {
+      "name": "u_waterShallowColor",
+      "value": {
+        "x": 0.045,
+        "y": 0.36,
+        "z": 0.43,
+        "w": 0.12
+      }
+    },
+    {
+      "name": "u_waterDeepColor",
+      "value": {
+        "x": 0.005,
+        "y": 0.085,
+        "z": 0.28,
+        "w": 0.045
+      }
+    },
+    {
+      "name": "u_waterWaveParams",
+      "value": {
+        "x": 1.18,
+        "y": 0.93,
+        "z": 0.92,
+        "w": 0.85
+      }
+    },
+    {
+      "name": "u_waterSurfaceParams",
+      "value": {
+        "x": 1.15,
+        "y": 17.5,
+        "z": 0.9417419,
+        "w": 0.3389869
+      }
+    },
+    {
+      "name": "u_waterOpticsParams",
+      "value": {
+        "x": 5.4,
+        "y": 0.92,
+        "z": 0.18,
+        "w": 34.0
+      }
+    },
+    {
+      "name": "u_waterFoamParams",
+      "value": {
+        "x": 0.18,
+        "y": 0.55,
+        "z": 0.052,
+        "w": 1.4
+      }
+    },
+    {
+      "name": "u_waterFeatureParams",
+      "value": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.75,
+        "w": 0.06
+      }
+    }
+  ],
+  "textures": [
+    {
+      "name": "s_waterDetailNormalA",
+      "path": "raw://water/cadhatch_seamless_water/water_0347normal.jpg",
+      "usage": "normal",
+      "colorSpace": "linear",
+      "slot": 2,
+      "sampler": {
+        "addressU": "repeat",
+        "addressV": "repeat",
+        "minFilter": "linear",
+        "magFilter": "linear",
+        "mipFilter": "linear",
+        "anisotropy": 8
+      }
+    },
+    {
+      "name": "s_waterDetailNormalB",
+      "path": "raw://water/opengameart_keith333_water_batch/SeaWaves_N.jpg",
+      "usage": "normal",
+      "colorSpace": "linear",
+      "slot": 3,
+      "sampler": {
+        "addressU": "repeat",
+        "addressV": "repeat",
+        "minFilter": "linear",
+        "magFilter": "linear",
+        "mipFilter": "linear",
+        "anisotropy": 8
+      }
+    },
+    {
+      "name": "s_waterFoamTexture",
+      "path": "raw://water/opengameart_keith333_water_batch/Foam_S.jpg",
+      "usage": "data",
+      "colorSpace": "linear",
+      "slot": 4,
+      "sampler": {
+        "addressU": "repeat",
+        "addressV": "repeat",
+        "minFilter": "linear",
+        "magFilter": "linear",
+        "mipFilter": "linear",
+        "anisotropy": 8
+      }
+    },
+    {
+      "name": "s_waterNoiseTexture",
+      "path": "raw://water/momentsingraphics_blue_noise/selected_64x64_ldr_rgba/ldr_rgba_0.png",
+      "usage": "data",
+      "colorSpace": "linear",
+      "slot": 5,
+      "sampler": {
+        "addressU": "repeat",
+        "addressV": "repeat",
+        "minFilter": "linear",
+        "magFilter": "linear",
+        "mipFilter": "linear",
+        "anisotropy": 4
+      }
+    },
+    {
+      "name": "s_waterBlueNoiseTexture",
+      "path": "raw://water/momentsingraphics_blue_noise/selected_64x64_ldr_rgba/ldr_rgba_17.png",
+      "usage": "data",
+      "colorSpace": "linear",
+      "slot": 6,
+      "sampler": {
+        "addressU": "repeat",
+        "addressV": "repeat",
+        "minFilter": "linear",
+        "magFilter": "linear",
+        "mipFilter": "linear",
+        "anisotropy": 4
+      }
+    }
+  ]
+}

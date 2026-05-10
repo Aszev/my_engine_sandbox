@@ -1,0 +1,7 @@
+interface:
+  display_name: "Project Resource Adder"
+  short_description: "Import assets outside Git"
+  default_prompt: "Use $project-resource-adder to add this resource to the project asset store without committing heavy files to the repo."
+
+policy:
+  allow_implicit_invocation: true

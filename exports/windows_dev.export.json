@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "windows_dev",
+  "platform": "windows-x64",
+  "config": "development",
+  "runtimeTarget": "sandbox_app",
+  "buildConfig": "Debug",
+  "buildBeforeExport": "missing",
+  "roots": [
+    {
+      "kind": "world",
+      "path": "worlds/main.world.json"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "id": "sandbox.prefab.meshy_player",
+  "name": "Meshy Player",
+  "inherits": "plugin_character://prefabs/base_shooter_player.prefab.json",
+  "removedComponents": [
+    "CharacterRoot.CharacterTemplate",
+    "CharacterRoot.AnimationGraph"
+  ],
+  "entities": [
+    {
+      "id": "CharacterRoot",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshy Player"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "PlayerController",
+          "data": {
+            "controlMode": "shooter",
+            "walkSpeed": 1.4,
+            "sprintSpeed": 6.0,
+            "jumpSpeed": 3.43,
+            "turnSpeed": 6.0
+          }
+        },
+        {
+          "type": "CharacterMotor",
+          "data": {
+            "radius": 0.3,
+            "cylinderHalfHeight": 0.6,
+            "gravity": 9.80665,
+            "maxSlopeAngleRadians": 0.87266463,
+            "stepHeight": 0.35
+          }
+        },
+        {
+          "type": "Possessed",
+          "data": {
+            "playerIndex": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "Meshy Scout",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Meshy Scout"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Hierarchy",
+          "data": {
+            "parent": "CharacterRoot"
+          }
+        },
+        {
+          "type": "Animator",
+          "data": {
+            "skeletonAsset": "asset://characters/meshy_scout/meshy_scout.skeleton.json",
+            "clipAsset": "asset://characters/meshy_scout/meshy_scout.clips/Idle_Bind.animation.json",
+            "loop": true,
+            "playing": true,
+            "playbackSpeed": 1.0,
+            "timeSeconds": 0.0
+          }
+        },
+        {
+          "type": "CharacterTemplate",
+          "data": {
+            "rig": "plugin_character://rigs/humanoid_basic.rig_contract.json",
+            "animationSet": "asset://characters/meshy_scout/meshy_scout.animation_set.json",
+            "audioProfile": "plugin_character://audio/humanoid_basic.character_audio.json"
+          }
+        },
+        {
+          "type": "AnimationGraph",
+          "data": {
+            "graph": "engine.humanoid.locomotion",
+            "state": "Idle",
+            "active": true
+          }
+        },
+        {
+          "type": "SkinnedMeshRenderer",
+          "data": {
+            "skinnedMeshAsset": "asset://characters/meshy_scout/meshy_scout.skinned_mesh.json",
+            "materialSlots": [
+              {
+                "name": "Material_1",
+                "materialAsset": "asset://materials/meshy_scout.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Camera",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "Camera"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 0.0,
+              "y": 2.0,
+              "z": 5.5
+            },
+            "rotation": {
+              "w": 0.9876883,
+              "x": -0.1564345,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "Camera",
+          "data": {
+            "role": "play_main",
+            "fovY": 55.0,
+            "nearPlane": 0.1,
+            "farPlane": 6000.0
+          }
+        },
+        {
+          "type": "CameraRig",
+          "data": {
+            "mode": "third_person_shooter",
+            "enabled": true,
+            "moveSpeed": 6.0,
+            "fastMoveMultiplier": 4.0,
+            "lookSensitivity": 0.0032,
+            "smoothing": 0.0,
+            "followOffset": {
+              "x": 0.0,
+              "y": 1.8,
+              "z": 5.5
+            },
+            "collisionRadius": 0.25
+          }
+        },
+        {
+          "type": "CameraBinding",
+          "data": {
+            "targetMode": "entity",
+            "targetEntity": "Meshy Player",
+            "playerIndex": 0,
+            "anchor": "camera_target",
+            "fallbackAnchor": ""
+          }
+        },
+        {
+          "type": "CameraFraming",
+          "data": {
+            "distance": 4.8,
+            "height": 1.6,
+            "shoulderOffset": 0.45,
+            "lookAhead": 0.0,
+            "minPitch": -1.1,
+            "maxPitch": 0.65,
+            "yawSensitivity": 0.0032,
+            "pitchSensitivity": 0.0032,
+            "positionLag": 10.0,
+            "rotationLag": 12.0,
+            "collisionRadius": 0.25,
+            "collisionPadding": 0.05
+          }
+        }
+      ]
+    }
+  ]
+}

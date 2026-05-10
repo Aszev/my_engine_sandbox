@@ -1,0 +1,72 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Sandbox App - Island Terrain",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/standalone-windows-debug-source-third-party/sandbox_app/Debug/sandbox_app.exe",
+      "args": [
+        "--project-root",
+        "${workspaceFolder}",
+        "--engine-root",
+        "${workspaceFolder}/../my_engine",
+        "--world",
+        "worlds/island_terrain_demo.world.json"
+      ],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build Sandbox App",
+      "stopAtEntry": false,
+      "environment": [
+        {
+          "name": "ENGINE_LOG_FILE",
+          "value": "${workspaceFolder}/user/logs/runtime.log"
+        }
+      ]
+    },
+    {
+      "name": "Sandbox App - Project Default",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/standalone-windows-debug-source-third-party/sandbox_app/Debug/sandbox_app.exe",
+      "args": [
+        "--project-root",
+        "${workspaceFolder}",
+        "--engine-root",
+        "${workspaceFolder}/../my_engine"
+      ],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build Sandbox App",
+      "stopAtEntry": false,
+      "environment": [
+        {
+          "name": "ENGINE_LOG_FILE",
+          "value": "${workspaceFolder}/user/logs/runtime.log"
+        }
+      ]
+    },
+    {
+      "name": "Editor App - Island Terrain",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/../my_engine/build/windows-debug-source-third-party/projects/editor_app/Debug/editor_app.exe",
+      "args": [
+        "--mode",
+        "editor",
+        "--project",
+        "${workspaceFolder}/project.json",
+        "--world",
+        "${workspaceFolder}/worlds/island_terrain_demo.world.json"
+      ],
+      "cwd": "${workspaceFolder}/../my_engine",
+      "preLaunchTask": "Build Editor App",
+      "stopAtEntry": false,
+      "environment": [
+        {
+          "name": "ENGINE_LOG_FILE",
+          "value": "${workspaceFolder}/user/logs/editor.log"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "name": "fab_meadow_flowers_showroom",
+  "type": "runtime",
+  "domain": "play_scene",
+  "runtimePlugins": {
+    "required": [
+      "engine.platform.sdl",
+      "engine.render.bgfx",
+      "engine.ecs.flecs"
+    ],
+    "optional": [],
+    "desktopDynamic": []
+  },
+  "startupScenes": [
+    {
+      "scene": "../scenes/fab_meadow_flowers_showroom.scene.json",
+      "primary": true
+    }
+  ]
+}

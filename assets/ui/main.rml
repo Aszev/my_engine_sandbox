@@ -1,0 +1,18 @@
+<rml>
+<head>
+  <link type="text/rcss" href="style.rcss" />
+</head>
+<body>
+  <div id="overlay">
+    <div id="hero-card">
+      <p class="eyebrow">Sandbox Project Runtime Slice</p>
+      <h1>Hello World</h1>
+      <p class="lede">This scene, UI, and content live in the project repository, not in the shared engine.</p>
+    </div>
+    <div id="footer-bar">
+      <p class="hint">Press <span class="keycap">Esc</span> to close the sandbox or stop Play-In-Editor.</p>
+      <button id="close-button" class="primary-button" data-engine-action="close">Close</button>
+    </div>
+  </div>
+</body>
+</rml>

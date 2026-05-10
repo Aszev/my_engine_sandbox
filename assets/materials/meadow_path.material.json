@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "name": "meadow_path",
+  "shader": "engine://shaders/src/debug-color",
+  "blend": "opaque",
+  "doubleSided": false,
+  "opacity": 1.0,
+  "baseColor": {
+    "x": 0.68,
+    "y": 0.54,
+    "z": 0.34
+  }
+}

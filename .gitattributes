@@ -1,0 +1,1 @@
+assets/fab/**/*.mesh.json filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "target_frame_rate": 60,
+  "ui_scale": 1.0,
+  "viewport_quality": {
+    "resolution_scale": 1.5,
+    "anti_aliasing": "none",
+    "upscale_filter": "bilinear",
+    "shadows": "medium",
+    "ambient_occlusion": "off",
+    "reflections": "off",
+    "bloom": false,
+    "color_grading": false,
+    "motion_blur": false,
+    "post_processing": true
+  },
+  "blender_executable": "",
+  "console_show_critical": true,
+  "console_show_error": true,
+  "console_show_warn": true,
+  "console_show_message": true,
+  "console_show_trace": false,
+  "console_search": "",
+  "asset_browser_type_filter": "world",
+  "asset_search": "",
+  "console_channel_editor": true,
+  "console_channel_project": true,
+  "console_channel_assets": true,
+  "console_channel_world": true,
+  "console_channel_play": true,
+  "console_channel_validate": true,
+  "console_channel_tests": true
+}

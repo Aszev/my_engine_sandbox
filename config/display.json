@@ -1,0 +1,9 @@
+{
+  "width": 1600,
+  "height": 900,
+  "window_mode": "windowed",
+  "monitor": 0,
+  "refresh_rate_hz": 0,
+  "vsync": true,
+  "frame_rate_limit": 0.0
+}
