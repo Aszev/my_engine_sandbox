@@ -1,157 +1,1129 @@
 {
   "version": 1,
-  "name": "island_vegetation",
+  "name": "island",
   "seed": 47,
-  "cellSizeMeters": 10.0,
-  "placementJitter": 0.9,
+  "cellSizeMeters": 16,
+  "placementJitter": 0.75,
   "prototypes": [
     {
-      "id": "openworld_grass_short",
-      "displayName": "Open World Grass Short",
-      "meshAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_grass_01_01_01.mesh.json",
-      "materialSlots": [
-        {
-          "name": "MI_OpenWorldFoliage",
-          "materialAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_grass_01_01_01.materials/MI_OpenWorldFoliage.material.json"
-        }
-      ],
-      "biomeTags": ["grass", "coastal_grass"],
-      "surfaceTags": ["grass", "sand"],
-      "renderMode": "mesh",
-      "densityPerSquareMeter": 1.15,
-      "scaleRange": {"min": 1.05, "max": 1.45},
-      "cardWidthMeters": 0.28,
-      "cardHeightMeters": 0.62,
+      "id": "grass_fab_pn_open_world_foliage_pn_open_world_foliage_meshes_open_world_grass_01_01_01",
+      "displayName": "Pn Open World Foliage Meshes Open World Grass 01 01 01",
+      "sourceProductId": "fab.pn_open_world_foliage.pn_open_world_foliage_meshes_open_world_grass_01_01_01",
+      "meshAsset": "asset://external/fab_pn_open_world_foliage_standard/fab_pn_open_world_folia_470f1087f6c4db75/fab_pn_open_world_folia_470f1087f6c4db75.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.045,
+      "scaleRange": {
+        "min": 0.75,
+        "max": 1.350000023841858
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
       "cardCount": 3,
-      "minHeight": -1.0,
-      "maxHeight": 80.0,
-      "minSlope": 0.0,
-      "maxSlope": 28.0,
-      "alignToNormal": 0.7,
-      "cullDistanceMeters": 34.0,
-      "castsShadow": false
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
+      "materialSlots": [],
+      "biomeTags": [
+        "grass"
+      ],
+      "surfaceTags": []
     },
     {
-      "id": "openworld_grass_tall",
-      "displayName": "Open World Grass Tall",
-      "meshAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_grass_02_03_04.mesh.json",
-      "materialSlots": [
-        {
-          "name": "MI_OpenWorldFoliage",
-          "materialAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_grass_02_03_04.materials/MI_OpenWorldFoliage.material.json"
-        }
-      ],
-      "biomeTags": ["grass", "sparse_grass"],
-      "surfaceTags": ["grass"],
-      "renderMode": "mesh",
-      "densityPerSquareMeter": 0.18,
-      "scaleRange": {"min": 0.7, "max": 0.95},
-      "cardWidthMeters": 0.42,
-      "cardHeightMeters": 0.9,
+      "id": "grass_fab_pn_open_world_foliage_pn_open_world_foliage_meshes_open_world_grass_01_02_01",
+      "displayName": "Pn Open World Foliage Meshes Open World Grass 01 02 01",
+      "sourceProductId": "fab.pn_open_world_foliage.pn_open_world_foliage_meshes_open_world_grass_01_02_01",
+      "meshAsset": "asset://external/fab_pn_open_world_foliage_standard/fab_pn_open_world_folia_18a5906fe9cf5822/fab_pn_open_world_folia_18a5906fe9cf5822.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.045,
+      "scaleRange": {
+        "min": 0.75,
+        "max": 1.350000023841858
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
       "cardCount": 3,
-      "minHeight": 0.5,
-      "maxHeight": 95.0,
-      "minSlope": 0.0,
-      "maxSlope": 24.0,
-      "alignToNormal": 0.55,
-      "cullDistanceMeters": 30.0,
-      "castsShadow": false
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
+      "materialSlots": [],
+      "biomeTags": [
+        "grass"
+      ],
+      "surfaceTags": []
     },
     {
-      "id": "openworld_flower_patch",
-      "displayName": "Open World Flower Patch",
-      "meshAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_flower_04_02.mesh.json",
+      "id": "grass_fab_pn_open_world_foliage_pn_open_world_foliage_meshes_open_world_grass_01_03_01",
+      "displayName": "Pn Open World Foliage Meshes Open World Grass 01 03 01",
+      "sourceProductId": "fab.pn_open_world_foliage.pn_open_world_foliage_meshes_open_world_grass_01_03_01",
+      "meshAsset": "asset://external/fab_pn_open_world_foliage_standard/fab_pn_open_world_folia_19e0dc7510dcf497/fab_pn_open_world_folia_19e0dc7510dcf497.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.045,
+      "scaleRange": {
+        "min": 0.75,
+        "max": 1.350000023841858
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
+      "materialSlots": [],
+      "biomeTags": [
+        "grass"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "grass_fab_pn_open_world_foliage_pn_open_world_foliage_meshes_open_world_grass_01_03_04",
+      "displayName": "Pn Open World Foliage Meshes Open World Grass 01 03 04",
+      "sourceProductId": "fab.pn_open_world_foliage.pn_open_world_foliage_meshes_open_world_grass_01_03_04",
+      "meshAsset": "asset://external/fab_pn_open_world_foliage_standard/fab_pn_open_world_folia_19e0d77510dcec18/fab_pn_open_world_folia_19e0d77510dcec18.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.045,
+      "scaleRange": {
+        "min": 0.75,
+        "max": 1.350000023841858
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
+      "materialSlots": [],
+      "biomeTags": [
+        "grass"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "grass_fab_pn_open_world_foliage_pn_open_world_foliage_meshes_open_world_grass_02_01_01",
+      "displayName": "Pn Open World Foliage Meshes Open World Grass 02 01 01",
+      "sourceProductId": "fab.pn_open_world_foliage.pn_open_world_foliage_meshes_open_world_grass_02_01_01",
+      "meshAsset": "asset://external/fab_pn_open_world_foliage_standard/fab_pn_open_world_folia_4f4791969e78fd40/fab_pn_open_world_folia_4f4791969e78fd40.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.045,
+      "scaleRange": {
+        "min": 0.75,
+        "max": 1.350000023841858
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
+      "materialSlots": [],
+      "biomeTags": [
+        "grass"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "grass_quaternius_stylized_nature_grass_common_short",
+      "displayName": "Grass Common Short",
+      "sourceProductId": "quaternius.stylized_nature.grass_common_short",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_grass_common_short/quaternius_stylized_nature_grass_common_short.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.045,
+      "scaleRange": {
+        "min": 0.75,
+        "max": 1.350000023841858
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
       "materialSlots": [
         {
-          "name": "MI_OpenWorldFoliage",
-          "materialAsset": "asset://fab/PN_OpenWorldFoliage/samples/Meshes__openWorld_flower_04_02.materials/MI_OpenWorldFoliage.material.json"
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_grass.material.json"
         }
       ],
-      "biomeTags": ["flowers", "small_flowers"],
-      "surfaceTags": ["grass", "sand"],
-      "renderMode": "mesh",
-      "densityPerSquareMeter": 0.035,
-      "scaleRange": {"min": 0.7, "max": 1.15},
-      "minHeight": -0.5,
-      "maxHeight": 70.0,
-      "minSlope": 0.0,
-      "maxSlope": 18.0,
-      "alignToNormal": 0.8,
-      "cullDistanceMeters": 30.0,
-      "castsShadow": false
+      "biomeTags": [
+        "grass"
+      ],
+      "surfaceTags": []
     },
     {
-      "id": "preview_bush_common",
-      "displayName": "Preview Bush Common",
-      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_bush_common/quaternius_stylized_nature_bush_common.gltf",
+      "id": "grass_quaternius_stylized_nature_grass_wispy_short",
+      "displayName": "Grass Wispy Short",
+      "sourceProductId": "quaternius.stylized_nature.grass_wispy_short",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_grass_wispy_short/quaternius_stylized_nature_grass_wispy_short.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.045,
+      "scaleRange": {
+        "min": 0.75,
+        "max": 1.350000023841858
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
       "materialSlots": [
         {
-          "name": "Leaves_TwistedTree",
-          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves_twisted_tree.material.json"
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_grass.material.json"
         }
       ],
-      "biomeTags": ["shrubs", "grass", "flowers"],
-      "surfaceTags": ["grass"],
-      "renderMode": "mesh",
-      "densityPerSquareMeter": 0.035,
-      "scaleRange": {"min": 0.75, "max": 1.15},
-      "minHeight": 0.0,
-      "maxHeight": 115.0,
-      "minSlope": 0.0,
-      "maxSlope": 32.0,
-      "alignToNormal": 0.65,
-      "cullDistanceMeters": 420.0,
-      "castsShadow": false
+      "biomeTags": [
+        "grass"
+      ],
+      "surfaceTags": []
     },
     {
-      "id": "preview_bush_common_flowers",
-      "displayName": "Preview Bush Common Flowers",
-      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_bush_common_flowers/quaternius_stylized_nature_bush_common_flowers.gltf",
+      "id": "grass_quaternius_stylized_nature_grass_wispy_tall",
+      "displayName": "Grass Wispy Tall",
+      "sourceProductId": "quaternius.stylized_nature.grass_wispy_tall",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_grass_wispy_tall/quaternius_stylized_nature_grass_wispy_tall.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.045,
+      "scaleRange": {
+        "min": 0.75,
+        "max": 1.350000023841858
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
       "materialSlots": [
         {
-          "name": "Leaves_NormalTree",
-          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves_normal_tree.material.json"
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_grass.material.json"
+        }
+      ],
+      "biomeTags": [
+        "grass"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "flower_fab_pn_meadow_flowers_pn_meadow_flowers_meshes_flower_mesh_flower_01_01",
+      "displayName": "Pn Meadow Flowers Meshes Flower Mesh Flower 01 01",
+      "sourceProductId": "fab.pn_meadow_flowers.pn_meadow_flowers_meshes_flower_mesh_flower_01_01",
+      "meshAsset": "asset://external/fab_pn_meadow_flowers_standard/fab_pn_meadow_flowers_p_660c71e42570ef06/fab_pn_meadow_flowers_p_660c71e42570ef06.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.004,
+      "scaleRange": {
+        "min": 0.6499999761581421,
+        "max": 1.149999976158142
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
+      "materialSlots": [],
+      "biomeTags": [
+        "flower",
+        "meadow"
+      ],
+      "surfaceTags": [
+        "grass"
+      ]
+    },
+    {
+      "id": "flower_fab_pn_meadow_flowers_pn_meadow_flowers_meshes_flower_mesh_flower_02_01",
+      "displayName": "Pn Meadow Flowers Meshes Flower Mesh Flower 02 01",
+      "sourceProductId": "fab.pn_meadow_flowers.pn_meadow_flowers_meshes_flower_mesh_flower_02_01",
+      "meshAsset": "asset://external/fab_pn_meadow_flowers_standard/fab_pn_meadow_flowers_p_6a83b1faf8c2bff9/fab_pn_meadow_flowers_p_6a83b1faf8c2bff9.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.004,
+      "scaleRange": {
+        "min": 0.6499999761581421,
+        "max": 1.149999976158142
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
+      "materialSlots": [],
+      "biomeTags": [
+        "flower",
+        "meadow"
+      ],
+      "surfaceTags": [
+        "grass"
+      ]
+    },
+    {
+      "id": "flower_fab_pn_open_world_foliage_pn_open_world_foliage_meshes_open_world_flower_01_01",
+      "displayName": "Pn Open World Foliage Meshes Open World Flower 01 01",
+      "sourceProductId": "fab.pn_open_world_foliage.pn_open_world_foliage_meshes_open_world_flower_01_01",
+      "meshAsset": "asset://external/fab_pn_open_world_foliage_standard/fab_pn_open_world_folia_e444cd0d5be1fc4e/fab_pn_open_world_folia_e444cd0d5be1fc4e.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.004,
+      "scaleRange": {
+        "min": 0.6499999761581421,
+        "max": 1.149999976158142
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
+      "materialSlots": [],
+      "biomeTags": [
+        "flower",
+        "meadow"
+      ],
+      "surfaceTags": [
+        "grass"
+      ]
+    },
+    {
+      "id": "flower_quaternius_stylized_nature_flower_3_group",
+      "displayName": "Flower 3 Group",
+      "sourceProductId": "quaternius.stylized_nature.flower_3_group",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_flower_3_group/quaternius_stylized_nature_flower_3_group.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.004,
+      "scaleRange": {
+        "min": 0.6499999761581421,
+        "max": 1.149999976158142
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves.material.json"
         },
         {
-          "name": "Flowers",
+          "name": "Material_1",
           "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_flowers.material.json"
         }
       ],
-      "biomeTags": ["shrubs", "flowers", "grass"],
-      "surfaceTags": ["grass"],
-      "renderMode": "mesh",
-      "densityPerSquareMeter": 0.025,
-      "scaleRange": {"min": 0.7, "max": 1.05},
-      "minHeight": 0.0,
-      "maxHeight": 90.0,
-      "minSlope": 0.0,
-      "maxSlope": 24.0,
-      "alignToNormal": 0.7,
-      "cullDistanceMeters": 420.0,
-      "castsShadow": false
+      "biomeTags": [
+        "flower",
+        "meadow"
+      ],
+      "surfaceTags": [
+        "grass"
+      ]
     },
     {
-      "id": "preview_dead_tree_1",
-      "displayName": "Preview Dead Tree 1",
-      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_dead_tree_1/quaternius_stylized_nature_dead_tree_1.gltf",
+      "id": "flower_quaternius_stylized_nature_flower_4_group",
+      "displayName": "Flower 4 Group",
+      "sourceProductId": "quaternius.stylized_nature.flower_4_group",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_flower_4_group/quaternius_stylized_nature_flower_4_group.gltf",
+      "renderMode": "grassCard",
+      "densityPerSquareMeter": 0.004,
+      "scaleRange": {
+        "min": 0.6499999761581421,
+        "max": 1.149999976158142
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 950,
+      "castsShadow": false,
       "materialSlots": [
         {
-          "name": "Bark_DeadTree",
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves.material.json"
+        },
+        {
+          "name": "Material_1",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_flowers.material.json"
+        }
+      ],
+      "biomeTags": [
+        "flower",
+        "meadow"
+      ],
+      "surfaceTags": [
+        "grass"
+      ]
+    },
+    {
+      "id": "shrub_fab_nature_package_legacy_nature_package_meshes_flora_bush01",
+      "displayName": "Nature Package Meshes Flora Bush01",
+      "sourceProductId": "fab.nature_package_legacy.nature_package_meshes_flora_bush01",
+      "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_legacy_nature_package_meshes_flora_bush01/fab_nature_package_legacy_nature_package_meshes_flora_bush01.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00022,
+      "scaleRange": {
+        "min": 0.7,
+        "max": 1.25
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 1100,
+      "castsShadow": true,
+      "materialSlots": [],
+      "biomeTags": [
+        "shrub",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "shrub_quaternius_stylized_nature_bush_common",
+      "displayName": "Bush Common",
+      "sourceProductId": "quaternius.stylized_nature.bush_common",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_bush_common/quaternius_stylized_nature_bush_common.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00022,
+      "scaleRange": {
+        "min": 0.7,
+        "max": 1.35
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 1100,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves_twisted_tree.material.json"
+        }
+      ],
+      "biomeTags": [
+        "shrub",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "shrub_quaternius_stylized_nature_bush_common_flowers",
+      "displayName": "Bush Common Flowers",
+      "sourceProductId": "quaternius.stylized_nature.bush_common_flowers",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_bush_common_flowers/quaternius_stylized_nature_bush_common_flowers.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00022,
+      "scaleRange": {
+        "min": 0.65,
+        "max": 1.2
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 1100,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves_normal_tree.material.json"
+        },
+        {
+          "name": "Material_1",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_flowers.material.json"
+        }
+      ],
+      "biomeTags": [
+        "shrub",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_quaternius_stylized_nature_common_tree_1",
+      "displayName": "Common Tree 1",
+      "sourceProductId": "quaternius.stylized_nature.common_tree_1",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_common_tree_1/quaternius_stylized_nature_common_tree_1.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00045,
+      "scaleRange": {
+        "min": 1.05,
+        "max": 1.65
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.25,
+      "cullDistanceMeters": 1600,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_normal_tree.material.json"
+        },
+        {
+          "name": "Material_1",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves_normal_tree.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_quaternius_stylized_nature_common_tree_2",
+      "displayName": "Common Tree 2",
+      "sourceProductId": "quaternius.stylized_nature.common_tree_2",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_common_tree_2/quaternius_stylized_nature_common_tree_2.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00045,
+      "scaleRange": {
+        "min": 0.95,
+        "max": 1.55
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.25,
+      "cullDistanceMeters": 1600,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_normal_tree.material.json"
+        },
+        {
+          "name": "Material_1",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves_normal_tree.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_quaternius_stylized_nature_common_tree_3",
+      "displayName": "Common Tree 3",
+      "sourceProductId": "quaternius.stylized_nature.common_tree_3",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_common_tree_3/quaternius_stylized_nature_common_tree_3.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00045,
+      "scaleRange": {
+        "min": 1.1,
+        "max": 1.75
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.25,
+      "cullDistanceMeters": 1600,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_normal_tree.material.json"
+        },
+        {
+          "name": "Material_1",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves_normal_tree.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_quaternius_stylized_nature_common_tree_4",
+      "displayName": "Common Tree 4",
+      "sourceProductId": "quaternius.stylized_nature.common_tree_4",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_common_tree_4/quaternius_stylized_nature_common_tree_4.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00045,
+      "scaleRange": {
+        "min": 0.95,
+        "max": 1.55
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.25,
+      "cullDistanceMeters": 1600,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_normal_tree.material.json"
+        },
+        {
+          "name": "Material_1",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves_normal_tree.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_quaternius_stylized_nature_pine_1",
+      "displayName": "Pine 1",
+      "sourceProductId": "quaternius.stylized_nature.pine_1",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_pine_1/quaternius_stylized_nature_pine_1.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00055,
+      "scaleRange": {
+        "min": 1.15,
+        "max": 1.95
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.25,
+      "cullDistanceMeters": 1600,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_normal_tree.material.json"
+        },
+        {
+          "name": "Material_1",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaf_pine.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_quaternius_stylized_nature_pine_2",
+      "displayName": "Pine 2",
+      "sourceProductId": "quaternius.stylized_nature.pine_2",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_pine_2/quaternius_stylized_nature_pine_2.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00055,
+      "scaleRange": {
+        "min": 1.05,
+        "max": 1.85
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.25,
+      "cullDistanceMeters": 1600,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_normal_tree.material.json"
+        },
+        {
+          "name": "Material_1",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaf_pine.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_quaternius_stylized_nature_twisted_tree_1",
+      "displayName": "Twisted Tree 1",
+      "sourceProductId": "quaternius.stylized_nature.twisted_tree_1",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_twisted_tree_1/quaternius_stylized_nature_twisted_tree_1.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00028,
+      "scaleRange": {
+        "min": 0.95,
+        "max": 1.45
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.25,
+      "cullDistanceMeters": 1600,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_twisted_tree.material.json"
+        },
+        {
+          "name": "Material_1",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves_twisted_tree.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_quaternius_stylized_nature_twisted_tree_2",
+      "displayName": "Twisted Tree 2",
+      "sourceProductId": "quaternius.stylized_nature.twisted_tree_2",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_twisted_tree_2/quaternius_stylized_nature_twisted_tree_2.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00028,
+      "scaleRange": {
+        "min": 0.85,
+        "max": 1.35
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.25,
+      "cullDistanceMeters": 1600,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_twisted_tree.material.json"
+        },
+        {
+          "name": "Material_1",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_leaves_twisted_tree.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "deadwood_quaternius_stylized_nature_dead_tree_1",
+      "displayName": "Dead Tree 1",
+      "sourceProductId": "quaternius.stylized_nature.dead_tree_1",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_dead_tree_1/quaternius_stylized_nature_dead_tree_1.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 5e-05,
+      "scaleRange": {
+        "min": 0.8,
+        "max": 1.25
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 1100,
+      "castsShadow": false,
+      "materialSlots": [
+        {
+          "name": "Material_0",
           "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_dead_tree.material.json"
         }
       ],
-      "biomeTags": ["shrubs", "grass"],
-      "surfaceTags": ["grass"],
+      "biomeTags": [
+        "deadwood",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "deadwood_quaternius_stylized_nature_dead_tree_2",
+      "displayName": "Dead Tree 2",
+      "sourceProductId": "quaternius.stylized_nature.dead_tree_2",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_dead_tree_2/quaternius_stylized_nature_dead_tree_2.gltf",
       "renderMode": "mesh",
-      "densityPerSquareMeter": 0.006,
-      "scaleRange": {"min": 0.8, "max": 1.25},
-      "minHeight": 2.0,
-      "maxHeight": 125.0,
-      "minSlope": 0.0,
-      "maxSlope": 30.0,
-      "alignToNormal": 0.45,
-      "cullDistanceMeters": 650.0,
-      "castsShadow": false
+      "densityPerSquareMeter": 5e-05,
+      "scaleRange": {
+        "min": 0.75,
+        "max": 1.2
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 1100,
+      "castsShadow": false,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_dead_tree.material.json"
+        }
+      ],
+      "biomeTags": [
+        "deadwood",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "deadwood_quaternius_stylized_nature_dead_tree_3",
+      "displayName": "Dead Tree 3",
+      "sourceProductId": "quaternius.stylized_nature.dead_tree_3",
+      "meshAsset": "asset://external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_dead_tree_3/quaternius_stylized_nature_dead_tree_3.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 5e-05,
+      "scaleRange": {
+        "min": 0.7,
+        "max": 1.15
+      },
+      "cardWidthMeters": 0.3499999940395355,
+      "cardHeightMeters": 0.6499999761581421,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 90,
+      "alignToNormal": 0.6499999761581421,
+      "cullDistanceMeters": 1100,
+      "castsShadow": false,
+      "materialSlots": [
+        {
+          "name": "Material_0",
+          "materialAsset": "asset://external/quaternius_stylized_nature_megakit_standard/_materials/quaternius_stylized_nature_texture_bark_dead_tree.material.json"
+        }
+      ],
+      "biomeTags": [
+        "deadwood",
+        "forest",
+        "meadow"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_fab_nature_package_legacy_pine_tree01",
+      "displayName": "Fab Pine Tree 01",
+      "sourceProductId": "fab.nature_package_legacy.nature_package_meshes_flora_pine_tree01",
+      "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_lega_44e0a67b17d92f4a/fab_nature_package_lega_44e0a67b17d92f4a.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00016,
+      "scaleRange": {
+        "min": 0.85,
+        "max": 1.25
+      },
+      "cardWidthMeters": 0.35,
+      "cardHeightMeters": 0.65,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 42,
+      "alignToNormal": 0.12,
+      "cullDistanceMeters": 1700,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "PineTree_Bark",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_38c6cdde07d1f4ad.material.json"
+        },
+        {
+          "name": "PineTree",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_6ecb15e4319e37a6.material.json"
+        },
+        {
+          "name": "RPineTree",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_744b96322cbedb6e.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "island"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_fab_nature_package_legacy_pine_tree02",
+      "displayName": "Fab Pine Tree 02",
+      "sourceProductId": "fab.nature_package_legacy.nature_package_meshes_flora_pine_tree02",
+      "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_lega_44e0a57b17d92d97/fab_nature_package_lega_44e0a57b17d92d97.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00016,
+      "scaleRange": {
+        "min": 0.85,
+        "max": 1.25
+      },
+      "cardWidthMeters": 0.35,
+      "cardHeightMeters": 0.65,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 42,
+      "alignToNormal": 0.12,
+      "cullDistanceMeters": 1700,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "PineTree_Bark",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_38c6cdde07d1f4ad.material.json"
+        },
+        {
+          "name": "PineTree",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_6ecb15e4319e37a6.material.json"
+        },
+        {
+          "name": "RPineTree",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_744b96322cbedb6e.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "island"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_fab_nature_package_legacy_tree01",
+      "displayName": "Fab Broadleaf Tree 01",
+      "sourceProductId": "fab.nature_package_legacy.nature_package_meshes_flora_tree01",
+      "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_lega_0a5485720295ce4d/fab_nature_package_lega_0a5485720295ce4d.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00014,
+      "scaleRange": {
+        "min": 0.8,
+        "max": 1.18
+      },
+      "cardWidthMeters": 0.35,
+      "cardHeightMeters": 0.65,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 42,
+      "alignToNormal": 0.12,
+      "cullDistanceMeters": 1700,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "tree_bark",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_00648438dd578046.material.json"
+        },
+        {
+          "name": "TreeBrunch2",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_d428d30547516302.material.json"
+        },
+        {
+          "name": "TreeBrunch1",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_6007e69d24a6bbc4.material.json"
+        },
+        {
+          "name": "RTree2",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_b604f06d62408516.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "island"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_fab_nature_package_legacy_tree02",
+      "displayName": "Fab Broadleaf Tree 02",
+      "sourceProductId": "fab.nature_package_legacy.nature_package_meshes_flora_tree02",
+      "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_lega_0a5482720295c934/fab_nature_package_lega_0a5482720295c934.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00014,
+      "scaleRange": {
+        "min": 0.8,
+        "max": 1.18
+      },
+      "cardWidthMeters": 0.35,
+      "cardHeightMeters": 0.65,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 42,
+      "alignToNormal": 0.12,
+      "cullDistanceMeters": 1700,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "tree_bark",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_00648438dd578046.material.json"
+        },
+        {
+          "name": "TreeBrunch2",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_d428d30547516302.material.json"
+        },
+        {
+          "name": "RTree2",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_b604f06d62408516.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "island"
+      ],
+      "surfaceTags": []
+    },
+    {
+      "id": "tree_fab_nature_package_legacy_tree06_2",
+      "displayName": "Fab Broadleaf Tree 06",
+      "sourceProductId": "fab.nature_package_legacy.nature_package_meshes_flora_tree06_2",
+      "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_lega_829219b8b9a091a5/fab_nature_package_lega_829219b8b9a091a5.gltf",
+      "renderMode": "mesh",
+      "densityPerSquareMeter": 0.00012,
+      "scaleRange": {
+        "min": 0.75,
+        "max": 1.1
+      },
+      "cardWidthMeters": 0.35,
+      "cardHeightMeters": 0.65,
+      "cardCount": 3,
+      "minHeight": -10000,
+      "maxHeight": 10000,
+      "minSlope": 0,
+      "maxSlope": 42,
+      "alignToNormal": 0.12,
+      "cullDistanceMeters": 1700,
+      "castsShadow": true,
+      "materialSlots": [
+        {
+          "name": "tree_bark",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_00648438dd578046.material.json"
+        },
+        {
+          "name": "TreeBrunch2",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_d428d30547516302.material.json"
+        },
+        {
+          "name": "RTree2",
+          "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_b604f06d62408516.material.json"
+        }
+      ],
+      "biomeTags": [
+        "tree",
+        "forest",
+        "island"
+      ],
+      "surfaceTags": []
     }
   ]
 }

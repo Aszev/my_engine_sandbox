@@ -2,10 +2,10 @@
   "version": 1,
   "name": "island",
   "seed": 47,
-  "worldSizeMeters": 4096.0,
-  "tileSizeMeters": 256.0,
-  "terrainResolution": 1025,
-  "biomePalette": "engine://terrain/default_island.biome_palette.json",
+  "worldSizeMeters": 1024.0,
+  "tileSizeMeters": 128.0,
+  "terrainResolution": 513,
+  "biomePalette": "asset://terrain/island_small.biome_palette.json",
   "assetKit": "engine://terrain/default_island_nature.asset_kit.json",
   "outputPrefix": "island"
 }

@@ -74,6 +74,10 @@ add_executable(sandbox_app
     src/sandbox_app.cpp
 )
 
+if(EMSCRIPTEN)
+    engine_apply_runtime_plugin_link_overrides(sandbox_app)
+endif()
+
 target_include_directories(sandbox_app
     PRIVATE
         ${SANDBOX_ENGINE_ROOT}/engine

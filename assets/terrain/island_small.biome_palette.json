@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "name": "island_small",
+  "biomes": [
+    {
+      "id": "beach",
+      "displayName": "Beach",
+      "height": {"min": -2.0, "max": 4.0},
+      "slope": {"min": 0.0, "max": 10.0},
+      "temperature": {"min": 0.2, "max": 1.0},
+      "moisture": {"min": 0.0, "max": 0.85},
+      "distanceToCoast": {"min": 0.0, "max": 56.0},
+      "distanceToWater": {"min": 0.0, "max": 64.0},
+      "surfaces": ["sand", "grass"],
+      "vegetationTags": ["grass"]
+    },
+    {
+      "id": "meadow",
+      "displayName": "Meadow",
+      "height": {"min": 2.0, "max": 95.0},
+      "slope": {"min": 0.0, "max": 18.0},
+      "temperature": {"min": 0.25, "max": 0.95},
+      "moisture": {"min": 0.2, "max": 0.72},
+      "distanceToCoast": {"min": 36.0, "max": 100000.0},
+      "distanceToWater": {"min": 12.0, "max": 180.0},
+      "surfaces": ["grass"],
+      "vegetationTags": ["grass", "flower", "plant"]
+    },
+    {
+      "id": "forest",
+      "displayName": "Forest",
+      "height": {"min": 8.0, "max": 180.0},
+      "slope": {"min": 0.0, "max": 30.0},
+      "temperature": {"min": 0.25, "max": 0.9},
+      "moisture": {"min": 0.48, "max": 1.0},
+      "distanceToCoast": {"min": 70.0, "max": 100000.0},
+      "distanceToWater": {"min": 0.0, "max": 260.0},
+      "surfaces": ["forest_floor", "grass"],
+      "vegetationTags": ["tree", "shrub", "deadwood", "grass"]
+    },
+    {
+      "id": "cliff",
+      "displayName": "Cliff",
+      "height": {"min": 6.0, "max": 220.0},
+      "slope": {"min": 30.0, "max": 90.0},
+      "temperature": {"min": 0.0, "max": 1.0},
+      "moisture": {"min": 0.0, "max": 1.0},
+      "distanceToCoast": {"min": 0.0, "max": 100000.0},
+      "distanceToWater": {"min": 0.0, "max": 100000.0},
+      "surfaces": ["rock"],
+      "vegetationTags": ["rock", "sparse_grass"]
+    }
+  ]
+}

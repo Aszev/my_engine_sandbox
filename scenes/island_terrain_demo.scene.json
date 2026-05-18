@@ -46,9 +46,10 @@
             "materialAsset": "plugin_terrain://materials/terrain.material.json",
             "chunkResolution": 128,
             "maxLod": 5,
-            "maxVisibleChunks": 96,
-            "lodDistanceScale": 0.9,
-            "viewDistanceMeters": 2200.0,
+            "maxVisibleChunks": 512,
+            "lodDistanceScale": 0.8999999761581421,
+            "viewDistanceMeters": 1400.0,
+            "castShadows": true,
             "collisionEnabled": true,
             "debugChunks": false,
             "debugLod": false
@@ -91,9 +92,11 @@
           "data": {
             "vegetationAsset": "asset://vegetation/island.vegetation.json",
             "terrainEntityName": "Large Island Terrain",
-            "seed": 47,
+            "seed": 73,
             "densityScale": 0.75,
-            "viewDistanceMeters": 900.0,
+            "viewDistanceMeters": 1400.0,
+            "maxVisibleCells": 1024,
+            "maxVisibleInstances": 18000,
             "enabled": true,
             "debugCells": false,
             "debugDensity": false
@@ -270,9 +273,9 @@
           "type": "Transform",
           "data": {
             "position": {
-              "x": -600.0,
-              "y": 80.0,
-              "z": 400.0
+              "x": 304.0,
+              "y": 50.0,
+              "z": 16.0
             },
             "rotation": {
               "w": 1.0,
@@ -447,6 +450,270 @@
               {
                 "name": "Leaves_TwistedTree",
                 "materialAsset": "temp://derived/imports/asset/external/quaternius_stylized_nature_megakit_standard/quaternius_stylized_nature_bush_common/quaternius_stylized_nature_bush_common.materials/Leaves_TwistedTree.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fab_nature_package_lega_44e0a67b17d92f4a",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "fab_nature_package_lega_44e0a67b17d92f4a"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 30.153093338012695,
+              "y": 0.0,
+              "z": -0.2491759955883026
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_lega_44e0a67b17d92f4a/fab_nature_package_lega_44e0a67b17d92f4a.gltf",
+            "materialSlots": [
+              {
+                "name": "PineTree_Bark",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_38c6cdde07d1f4ad.material.json"
+              },
+              {
+                "name": "PineTree",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_6ecb15e4319e37a6.material.json"
+              },
+              {
+                "name": "RPineTree",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_744b96322cbedb6e.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fab_nature_package_lega_44e0a57b17d92d97",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "fab_nature_package_lega_44e0a57b17d92d97"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 27.181970596313477,
+              "y": 0.0,
+              "z": 26.22842025756836
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_lega_44e0a57b17d92d97/fab_nature_package_lega_44e0a57b17d92d97.gltf",
+            "materialSlots": [
+              {
+                "name": "PineTree_Bark",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_38c6cdde07d1f4ad.material.json"
+              },
+              {
+                "name": "PineTree",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_6ecb15e4319e37a6.material.json"
+              },
+              {
+                "name": "RPineTree",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_744b96322cbedb6e.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fab_nature_package_lega_0a5485720295ce4d",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "fab_nature_package_lega_0a5485720295ce4d"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -9.922028541564941,
+              "y": 0.0,
+              "z": 34.73646545410156
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_lega_0a5485720295ce4d/fab_nature_package_lega_0a5485720295ce4d.gltf",
+            "materialSlots": [
+              {
+                "name": "tree_bark",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_00648438dd578046.material.json"
+              },
+              {
+                "name": "TreeBrunch2",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_d428d30547516302.material.json"
+              },
+              {
+                "name": "TreeBrunch1",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_6007e69d24a6bbc4.material.json"
+              },
+              {
+                "name": "RTree2",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_b604f06d62408516.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fab_nature_package_lega_0a5482720295c934",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "fab_nature_package_lega_0a5482720295c934"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": -3.734358072280884,
+              "y": 0.0,
+              "z": 45.637420654296875
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_lega_0a5482720295c934/fab_nature_package_lega_0a5482720295c934.gltf",
+            "materialSlots": [
+              {
+                "name": "tree_bark",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_00648438dd578046.material.json"
+              },
+              {
+                "name": "TreeBrunch2",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_d428d30547516302.material.json"
+              },
+              {
+                "name": "RTree2",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_b604f06d62408516.material.json"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fab_nature_package_lega_829219b8b9a091a5",
+      "components": [
+        {
+          "type": "Name",
+          "data": {
+            "value": "fab_nature_package_lega_829219b8b9a091a5"
+          }
+        },
+        {
+          "type": "Transform",
+          "data": {
+            "position": {
+              "x": 23.64944839477539,
+              "y": 0.0,
+              "z": 59.032474517822266
+            },
+            "rotation": {
+              "w": 1.0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        },
+        {
+          "type": "MeshRenderer",
+          "data": {
+            "meshAsset": "asset://external/fab_nature_package_legacy_standard/fab_nature_package_lega_829219b8b9a091a5/fab_nature_package_lega_829219b8b9a091a5.gltf",
+            "materialSlots": [
+              {
+                "name": "tree_bark",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_00648438dd578046.material.json"
+              },
+              {
+                "name": "TreeBrunch2",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_d428d30547516302.material.json"
+              },
+              {
+                "name": "RTree2",
+                "materialAsset": "asset://external/fab_nature_package_legacy_standard/_materials/fab_nature_package_legacy_stand_b604f06d62408516.material.json"
               }
             ]
           }

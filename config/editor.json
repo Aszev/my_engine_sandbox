@@ -60,6 +60,11 @@
         "visible": true
       },
       {
+        "id": "plugin.external_asset_library.island_generator",
+        "dock": "right",
+        "visible": false
+      },
+      {
         "id": "settings",
         "dock": "right",
         "visible": false
