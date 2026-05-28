@@ -90,6 +90,11 @@
         "visible": false
       },
       {
+        "id": "ui_asset_editor",
+        "dock": "center",
+        "visible": false
+      },
+      {
         "id": "profiler",
         "dock": "right",
         "visible": false
@@ -119,6 +124,12 @@
   "console_search": "",
   "asset_browser_type_filter": "",
   "asset_search": "",
+  "ui_workspace": {
+    "active_asset": "",
+    "selected_profile": "",
+    "preview_width": 390,
+    "preview_height": 844
+  },
   "console_channel_editor": true,
   "console_channel_project": true,
   "console_channel_assets": true,
